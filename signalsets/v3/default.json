@@ -1,4 +1,7 @@
 { "commands": [
-
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "122B"}, "freq": 30,
+  "signals": [
+    {"id": "ALTIMA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 255, "unit": "scalar" }, "name": "Cruise control speed"}
+  ]}
 ]
 }

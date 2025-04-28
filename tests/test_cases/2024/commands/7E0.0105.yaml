@@ -1,0 +1,133 @@
+command_id: 7E0.0105
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E80341057D
+    7E8037F2231
+  expected_values:
+    ECT: 85
+- response: |-
+    7E80341057E
+    7E8037F2231
+  expected_values:
+    ECT: 86
+- response: |-
+    7E803410D00
+    7E8037F2231
+    7E80341057E
+  expected_values:
+    VSS: 0
+- response: |-
+    7E8037F2231
+    7E803410559
+  expected_values:
+    ECT: 49
+- response: |-
+    7E8037F2231
+    7E80341056A
+  expected_values:
+    ECT: 66
+- response: |-
+    7E8037F2231
+    7E80341056F
+  expected_values:
+    ECT: 71
+- response: |-
+    7E8037F2231
+    7E803410577
+  expected_values:
+    ECT: 79
+- response: |-
+    7E8037F2231
+    7E80341057C
+  expected_values:
+    ECT: 84
+- response: |-
+    7E8037F2231
+    7E80341057D
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057E
+  expected_values:
+    ECT: 86
+- response: |-
+    7E8037F2231
+    7E803410580
+  expected_values:
+    ECT: 88
+- response: |-
+    7E8037F2231
+    7E803410581
+  expected_values:
+    ECT: 89
+- response: |-
+    7E8037F2231
+    7E803410D00
+    7E80341057D
+  expected_values:
+    VSS: 0
+- response: |-
+    7E8037F2231
+    7E803410D00
+    7E80341057E
+  expected_values:
+    VSS: 0
+- response: |-
+    7E8037F2231
+    7E803410D00
+    7E80341057F
+  expected_values:
+    VSS: 0
+- response: |-
+    7E8037F2231
+    7E803410D00
+    7E803410583
+  expected_values:
+    VSS: 0
+- response: |-
+    7E8037F2231
+    7E804410C0ABE
+    7E803410D00
+    7E80341057E
+  expected_values:
+    RPM: 687.5
+- response: |-
+    7E80562122B0000
+    7E803410559
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E80341057B
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E80341057C
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E80341057D
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E80341057E
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E803410D00
+    7E80341057D
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E803410D00
+    7E803410582
+  expected_values:
+    ALTIMA_CC_S: 0

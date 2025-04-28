@@ -1,0 +1,416 @@
+command_id: 7E0.0110
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2231
+    7E80341057C
+    7E804411000DC
+  expected_values:
+    ECT: 84
+- response: |-
+    7E8037F2231
+    7E80341057C
+    7E8044110015D
+  expected_values:
+    ECT: 84
+- response: |-
+    7E8037F2231
+    7E80341057D
+    7E80441100123
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057D
+    7E80441100132
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057D
+    7E80441100135
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057D
+    7E8044110013C
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057D
+    7E80441100146
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057D
+    7E8044110030F
+  expected_values:
+    ECT: 85
+- response: |-
+    7E8037F2231
+    7E80341057E
+    7E80441100142
+  expected_values:
+    ECT: 86
+- response: |-
+    7E8037F2231
+    7E804411000C0
+  expected_values:
+    MAF: 1.92
+- response: |-
+    7E8037F2231
+    7E804411000C9
+  expected_values:
+    MAF: 2.01
+- response: |-
+    7E8037F2231
+    7E804411000D4
+  expected_values:
+    MAF: 2.12
+- response: |-
+    7E8037F2231
+    7E804411000D7
+  expected_values:
+    MAF: 2.15
+- response: |-
+    7E8037F2231
+    7E804411000D8
+  expected_values:
+    MAF: 2.16
+- response: |-
+    7E8037F2231
+    7E804411000D9
+  expected_values:
+    MAF: 2.17
+- response: |-
+    7E8037F2231
+    7E804411000E1
+  expected_values:
+    MAF: 2.25
+- response: |-
+    7E8037F2231
+    7E804411000E6
+  expected_values:
+    MAF: 2.3
+- response: |-
+    7E8037F2231
+    7E804411000EA
+  expected_values:
+    MAF: 2.34
+- response: |-
+    7E8037F2231
+    7E804411000EB
+  expected_values:
+    MAF: 2.35
+- response: |-
+    7E8037F2231
+    7E804411000ED
+  expected_values:
+    MAF: 2.37
+- response: |-
+    7E8037F2231
+    7E804411000EF
+  expected_values:
+    MAF: 2.39
+- response: |-
+    7E8037F2231
+    7E804411000F0
+  expected_values:
+    MAF: 2.4
+- response: |-
+    7E8037F2231
+    7E804411000F5
+  expected_values:
+    MAF: 2.45
+- response: |-
+    7E8037F2231
+    7E804411000FA
+  expected_values:
+    MAF: 2.5
+- response: |-
+    7E8037F2231
+    7E8044110011A
+  expected_values:
+    MAF: 2.82
+- response: |-
+    7E8037F2231
+    7E80441100120
+  expected_values:
+    MAF: 2.88
+- response: |-
+    7E8037F2231
+    7E80441100123
+  expected_values:
+    MAF: 2.91
+- response: |-
+    7E8037F2231
+    7E8044110012A
+  expected_values:
+    MAF: 2.98
+- response: |-
+    7E8037F2231
+    7E8044110012C
+  expected_values:
+    MAF: 3
+- response: |-
+    7E8037F2231
+    7E8044110012D
+  expected_values:
+    MAF: 3.01
+- response: |-
+    7E8037F2231
+    7E8044110012E
+  expected_values:
+    MAF: 3.02
+- response: |-
+    7E8037F2231
+    7E8044110012F
+  expected_values:
+    MAF: 3.03
+- response: |-
+    7E8037F2231
+    7E80441100130
+  expected_values:
+    MAF: 3.04
+- response: |-
+    7E8037F2231
+    7E80441100131
+  expected_values:
+    MAF: 3.05
+- response: |-
+    7E8037F2231
+    7E80441100132
+  expected_values:
+    MAF: 3.06
+- response: |-
+    7E8037F2231
+    7E80441100133
+  expected_values:
+    MAF: 3.07
+- response: |-
+    7E8037F2231
+    7E80441100134
+  expected_values:
+    MAF: 3.08
+- response: |-
+    7E8037F2231
+    7E80441100136
+  expected_values:
+    MAF: 3.1
+- response: |-
+    7E8037F2231
+    7E80441100137
+  expected_values:
+    MAF: 3.11
+- response: |-
+    7E8037F2231
+    7E80441100138
+  expected_values:
+    MAF: 3.12
+- response: |-
+    7E8037F2231
+    7E80441100139
+  expected_values:
+    MAF: 3.13
+- response: |-
+    7E8037F2231
+    7E8044110013A
+  expected_values:
+    MAF: 3.14
+- response: |-
+    7E8037F2231
+    7E8044110013B
+  expected_values:
+    MAF: 3.15
+- response: |-
+    7E8037F2231
+    7E8044110013C
+  expected_values:
+    MAF: 3.16
+- response: |-
+    7E8037F2231
+    7E8044110013D
+  expected_values:
+    MAF: 3.17
+- response: |-
+    7E8037F2231
+    7E8044110013E
+  expected_values:
+    MAF: 3.18
+- response: |-
+    7E8037F2231
+    7E8044110013F
+  expected_values:
+    MAF: 3.19
+- response: |-
+    7E8037F2231
+    7E80441100140
+  expected_values:
+    MAF: 3.2
+- response: |-
+    7E8037F2231
+    7E80441100142
+  expected_values:
+    MAF: 3.22
+- response: |-
+    7E8037F2231
+    7E80441100144
+  expected_values:
+    MAF: 3.24
+- response: |-
+    7E8037F2231
+    7E80441100145
+  expected_values:
+    MAF: 3.25
+- response: |-
+    7E8037F2231
+    7E80441100146
+  expected_values:
+    MAF: 3.26
+- response: |-
+    7E8037F2231
+    7E8044110014A
+  expected_values:
+    MAF: 3.3
+- response: |-
+    7E8037F2231
+    7E8044110014B
+  expected_values:
+    MAF: 3.31
+- response: |-
+    7E8037F2231
+    7E8044110014C
+  expected_values:
+    MAF: 3.32
+- response: |-
+    7E8037F2231
+    7E80441100151
+  expected_values:
+    MAF: 3.37
+- response: |-
+    7E8037F2231
+    7E80441100152
+  expected_values:
+    MAF: 3.38
+- response: |-
+    7E8037F2231
+    7E80441100153
+  expected_values:
+    MAF: 3.39
+- response: |-
+    7E8037F2231
+    7E80441100154
+  expected_values:
+    MAF: 3.4
+- response: |-
+    7E8037F2231
+    7E80441100156
+  expected_values:
+    MAF: 3.42
+- response: |-
+    7E8037F2231
+    7E80441100164
+  expected_values:
+    MAF: 3.56
+- response: |-
+    7E8037F2231
+    7E804411001A7
+  expected_values:
+    MAF: 4.23
+- response: |-
+    7E8037F2231
+    7E804411001D0
+  expected_values:
+    MAF: 4.64
+- response: |-
+    7E8037F2231
+    7E804411001E1
+  expected_values:
+    MAF: 4.81
+- response: |-
+    7E8037F2231
+    7E804411001E5
+  expected_values:
+    MAF: 4.85
+- response: |-
+    7E8037F2231
+    7E80441100306
+  expected_values:
+    MAF: 7.74
+- response: |-
+    7E8037F2231
+    7E80441100327
+  expected_values:
+    MAF: 8.07
+- response: |-
+    7E8037F2231
+    7E8044110035A
+  expected_values:
+    MAF: 8.58
+- response: |-
+    7E8037F2231
+    7E8044110035F
+  expected_values:
+    MAF: 8.63
+- response: |-
+    7E8037F2231
+    7E8044110039D
+  expected_values:
+    MAF: 9.25
+- response: |-
+    7E8037F2231
+    7E80441100E51
+  expected_values:
+    MAF: 36.65
+- response: |-
+    7E8037F2231
+    7E80441100FF6
+  expected_values:
+    MAF: 40.86
+- response: |-
+    7E804411000D6
+    7E8037F2231
+  expected_values:
+    MAF: 2.14
+- response: |-
+    7E8044110013B
+    7E8037F2231
+  expected_values:
+    MAF: 3.15
+- response: 7E804411002F1
+  expected_values:
+    MAF: 7.53
+- response: |-
+    7E8044110034F
+    7E8037F2231
+  expected_values:
+    MAF: 8.47
+- response: |-
+    7E80562122B0000
+    7E80441100123
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E80441100130
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E8044110013B
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E8044110013E
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E8044110013F
+  expected_values:
+    ALTIMA_CC_S: 0

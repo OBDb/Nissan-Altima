@@ -1,0 +1,107 @@
+command_id: 7E0.010D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2231
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    7E8037F2231
+    7E803410D12
+  expected_values:
+    VSS: 18
+- response: |-
+    7E8037F2231
+    7E803410D20
+  expected_values:
+    VSS: 32
+- response: |-
+    7E8037F2231
+    7E803410D36
+  expected_values:
+    VSS: 54
+- response: |-
+    7E8037F2231
+    7E803410D3A
+  expected_values:
+    VSS: 58
+- response: |-
+    7E8037F2231
+    7E803410D3C
+  expected_values:
+    VSS: 60
+- response: |-
+    7E8037F2231
+    7E803410D46
+  expected_values:
+    VSS: 70
+- response: |-
+    7E8037F2231
+    7E803410D54
+  expected_values:
+    VSS: 84
+- response: |-
+    7E8037F2231
+    7E803410D5E
+  expected_values:
+    VSS: 94
+- response: |-
+    7E8037F2231
+    7E804410C0A8C
+    7E803410D00
+  expected_values:
+    RPM: 675
+- response: |-
+    7E8037F2231
+    7E804410C0ABE
+    7E803410D00
+  expected_values:
+    RPM: 687.5
+- response: |-
+    7E8037F2231
+    7E804410C0AF0
+    7E803410D00
+  expected_values:
+    RPM: 700
+- response: |-
+    7E8037F2231
+    7E804410C1324
+    7E803410D42
+  expected_values:
+    RPM: 1225
+- response: |-
+    7E804410C0A8C
+    7E8037F2231
+    7E803410D00
+  expected_values:
+    RPM: 675
+- response: |-
+    7E80562122B0000
+    7E803410D00
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E803410D36
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E804410C0A8C
+    7E803410D00
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E804410C0ABE
+    7E803410D00
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E804410C0AF0
+    7E803410D00
+  expected_values:
+    ALTIMA_CC_S: 0

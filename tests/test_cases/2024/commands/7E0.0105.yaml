@@ -55,6 +55,11 @@ test_cases:
     ECT: 86
 - response: |-
     7E8037F2231
+    7E80341057F
+  expected_values:
+    ECT: 87
+- response: |-
+    7E8037F2231
     7E803410580
   expected_values:
     ECT: 88
@@ -63,6 +68,16 @@ test_cases:
     7E803410581
   expected_values:
     ECT: 89
+- response: |-
+    7E8037F2231
+    7E803410582
+  expected_values:
+    ECT: 90
+- response: |-
+    7E8037F2231
+    7E803410583
+  expected_values:
+    ECT: 91
 - response: |-
     7E8037F2231
     7E803410D00
@@ -87,6 +102,12 @@ test_cases:
     7E803410583
   expected_values:
     VSS: 0
+- response: |-
+    7E8037F2231
+    7E803410D30
+    7E80341057D
+  expected_values:
+    VSS: 48
 - response: |-
     7E8037F2231
     7E804410C0ABE
@@ -117,6 +138,11 @@ test_cases:
 - response: |-
     7E80562122B0000
     7E80341057E
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E803410580
   expected_values:
     ALTIMA_CC_S: 0
 - response: |-

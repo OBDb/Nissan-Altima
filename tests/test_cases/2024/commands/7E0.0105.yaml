@@ -3,6 +3,11 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
+    7E803410573
+    7E8037F2231
+  expected_values:
+    ECT: 75
+- response: |-
     7E80341057D
     7E8037F2231
   expected_values:
@@ -20,14 +25,39 @@ test_cases:
     VSS: 0
 - response: |-
     7E8037F2231
+    7E803410555
+  expected_values:
+    ECT: 45
+- response: |-
+    7E8037F2231
+    7E803410556
+  expected_values:
+    ECT: 46
+- response: |-
+    7E8037F2231
     7E803410559
   expected_values:
     ECT: 49
 - response: |-
     7E8037F2231
+    7E80341055B
+  expected_values:
+    ECT: 51
+- response: |-
+    7E8037F2231
+    7E803410565
+  expected_values:
+    ECT: 61
+- response: |-
+    7E8037F2231
     7E80341056A
   expected_values:
     ECT: 66
+- response: |-
+    7E8037F2231
+    7E80341056E
+  expected_values:
+    ECT: 70
 - response: |-
     7E8037F2231
     7E80341056F

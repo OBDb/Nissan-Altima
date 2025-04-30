@@ -390,6 +390,11 @@ test_cases:
     MAF: 4.23
 - response: |-
     7E8037F2231
+    7E804411001C0
+  expected_values:
+    MAF: 4.48
+- response: |-
+    7E8037F2231
     7E804411001C7
   expected_values:
     MAF: 4.55
@@ -403,6 +408,11 @@ test_cases:
     7E804411001E1
   expected_values:
     MAF: 4.81
+- response: |-
+    7E8037F2231
+    7E804411001E3
+  expected_values:
+    MAF: 4.83
 - response: |-
     7E8037F2231
     7E804411001E5
@@ -450,6 +460,11 @@ test_cases:
     MAF: 16.17
 - response: |-
     7E8037F2231
+    7E8044110068A
+  expected_values:
+    MAF: 16.74
+- response: |-
+    7E8037F2231
     7E80441100E51
   expected_values:
     MAF: 36.65
@@ -481,6 +496,11 @@ test_cases:
     7E8037F2231
   expected_values:
     MAF: 8.47
+- response: |-
+    7E8044110036A
+    7E8037F2231
+  expected_values:
+    MAF: 8.74
 - response: |-
     7E80562122B0000
     7E80441100123

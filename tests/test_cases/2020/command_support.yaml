@@ -66,5 +66,8 @@ supported_commands_by_ecu:
   - 0151:FUEL_TYP
 unsupported_commands_by_ecu:
   7E0:
+  - 7E0.7E8.0100
+  - 7E0.7E8.0103
+  - 7E0.7E8.011C
   - 7E0.7E8.221186
   - 7E0.7E8.221266

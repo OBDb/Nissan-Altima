@@ -3,6 +3,11 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
+    7E803410D40
+    7E8037F2231
+  expected_values:
+    VSS: 64
+- response: |-
     7E8037F2231
     7E803410D00
   expected_values:
@@ -24,9 +29,34 @@ test_cases:
     VSS: 20
 - response: |-
     7E8037F2231
+    7E803410D16
+  expected_values:
+    VSS: 22
+- response: |-
+    7E8037F2231
+    7E803410D18
+  expected_values:
+    VSS: 24
+- response: |-
+    7E8037F2231
     7E803410D20
   expected_values:
     VSS: 32
+- response: |-
+    7E8037F2231
+    7E803410D24
+  expected_values:
+    VSS: 36
+- response: |-
+    7E8037F2231
+    7E803410D26
+  expected_values:
+    VSS: 38
+- response: |-
+    7E8037F2231
+    7E803410D2A
+  expected_values:
+    VSS: 42
 - response: |-
     7E8037F2231
     7E803410D2C
@@ -34,9 +64,29 @@ test_cases:
     VSS: 44
 - response: |-
     7E8037F2231
+    7E803410D30
+  expected_values:
+    VSS: 48
+- response: |-
+    7E8037F2231
+    7E803410D32
+  expected_values:
+    VSS: 50
+- response: |-
+    7E8037F2231
+    7E803410D34
+  expected_values:
+    VSS: 52
+- response: |-
+    7E8037F2231
     7E803410D36
   expected_values:
     VSS: 54
+- response: |-
+    7E8037F2231
+    7E803410D38
+  expected_values:
+    VSS: 56
 - response: |-
     7E8037F2231
     7E803410D3A
@@ -54,9 +104,49 @@ test_cases:
     VSS: 62
 - response: |-
     7E8037F2231
+    7E803410D40
+  expected_values:
+    VSS: 64
+- response: |-
+    7E8037F2231
+    7E803410D42
+  expected_values:
+    VSS: 66
+- response: |-
+    7E8037F2231
+    7E803410D44
+  expected_values:
+    VSS: 68
+- response: |-
+    7E8037F2231
     7E803410D46
   expected_values:
     VSS: 70
+- response: |-
+    7E8037F2231
+    7E803410D48
+  expected_values:
+    VSS: 72
+- response: |-
+    7E8037F2231
+    7E803410D4A
+  expected_values:
+    VSS: 74
+- response: |-
+    7E8037F2231
+    7E803410D4C
+  expected_values:
+    VSS: 76
+- response: |-
+    7E8037F2231
+    7E803410D4E
+  expected_values:
+    VSS: 78
+- response: |-
+    7E8037F2231
+    7E803410D52
+  expected_values:
+    VSS: 82
 - response: |-
     7E8037F2231
     7E803410D54
@@ -64,9 +154,59 @@ test_cases:
     VSS: 84
 - response: |-
     7E8037F2231
+    7E803410D58
+  expected_values:
+    VSS: 88
+- response: |-
+    7E8037F2231
     7E803410D5E
   expected_values:
     VSS: 94
+- response: |-
+    7E8037F2231
+    7E803410D60
+  expected_values:
+    VSS: 96
+- response: |-
+    7E8037F2231
+    7E803410D6A
+  expected_values:
+    VSS: 106
+- response: |-
+    7E8037F2231
+    7E803410D6C
+  expected_values:
+    VSS: 108
+- response: |-
+    7E8037F2231
+    7E803410D72
+  expected_values:
+    VSS: 114
+- response: |-
+    7E8037F2231
+    7E803410D7A
+  expected_values:
+    VSS: 122
+- response: |-
+    7E8037F2231
+    7E803410D82
+  expected_values:
+    VSS: 130
+- response: |-
+    7E8037F2231
+    7E803410D86
+  expected_values:
+    VSS: 134
+- response: |-
+    7E8037F2231
+    7E803410D8C
+  expected_values:
+    VSS: 140
+- response: |-
+    7E8037F2231
+    7E803410D8E
+  expected_values:
+    VSS: 142
 - response: |-
     7E8037F2231
     7E804410C0A8C
@@ -87,10 +227,34 @@ test_cases:
     RPM: 700
 - response: |-
     7E8037F2231
+    7E804410C11C6
+    7E803410D26
+  expected_values:
+    RPM: 1137.5
+- response: |-
+    7E8037F2231
     7E804410C1324
     7E803410D42
   expected_values:
     RPM: 1225
+- response: |-
+    7E8037F2231
+    7E804410C1676
+    7E803410D56
+  expected_values:
+    RPM: 1437.5
+- response: |-
+    7E8037F2231
+    7E804410C1F40
+    7E803410D56
+  expected_values:
+    RPM: 2000
+- response: |-
+    7E8037F2231
+    7E804410C2FA8
+    7E803410D90
+  expected_values:
+    RPM: 3050
 - response: |-
     7E804410C0A8C
     7E8037F2231
@@ -98,13 +262,29 @@ test_cases:
   expected_values:
     RPM: 675
 - response: |-
+    7E804410C2008
+    7E8037F2231
+    7E803410D5A
+  expected_values:
+    RPM: 2050
+- response: |-
     7E80562122B0000
     7E803410D00
   expected_values:
     ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
+    7E803410D14
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
     7E803410D36
+  expected_values:
+    ALTIMA_CC_S: 0
+- response: |-
+    7E80562122B0000
+    7E803410D50
   expected_values:
     ALTIMA_CC_S: 0
 - response: |-

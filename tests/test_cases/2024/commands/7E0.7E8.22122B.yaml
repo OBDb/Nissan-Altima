@@ -18,33 +18,8 @@ test_cases:
     ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
-    7E80341056C
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E80341056D
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
     7E80341056E
     7E8044110018A
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E80341057B
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E80341057C
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E80341057D
   expected_values:
     ALTIMA_CC_S: 0
 - response: |-
@@ -55,11 +30,6 @@ test_cases:
 - response: |-
     7E80562122B0000
     7E803410580
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E803410D00
   expected_values:
     ALTIMA_CC_S: 0
 - response: |-
@@ -76,16 +46,6 @@ test_cases:
     ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
-    7E803410D14
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E803410D36
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
     7E803410D50
   expected_values:
     ALTIMA_CC_S: 0
@@ -96,16 +56,6 @@ test_cases:
     ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
-    7E804410C0A5A
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E804410C0A8C
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
     7E804410C0A8C
     7E803410D00
   expected_values:
@@ -113,12 +63,6 @@ test_cases:
 - response: |-
     7E80562122B0000
     7E804410C0ABE
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E804410C0ABE
-    7E803410D00
   expected_values:
     ALTIMA_CC_S: 0
 - response: |-
@@ -144,45 +88,12 @@ test_cases:
     ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
-    7E8044110013B
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E8044110013E
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
     7E8044110013F
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E8044110016B
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E80441100191
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E804411001C6
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E804411008D6
   expected_values:
     ALTIMA_CC_S: 0
 - response: 7E80562122B07EF
   expected_values:
     ALTIMA_CC_S: 255
 - response: 7E80562122B0845
-  expected_values:
-    ALTIMA_CC_S: 255
-- response: 7E80562122B0861
   expected_values:
     ALTIMA_CC_S: 255

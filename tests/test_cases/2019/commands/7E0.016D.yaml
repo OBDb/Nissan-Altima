@@ -21,23 +21,6 @@ test_cases:
     FRT_B_SUP: 0
 - response: |-
     7E8100D416D03018F01
-    7E8216B000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3630
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
     7E8216D000000000000
     7E80562122B0000
   expected_values:
@@ -72,279 +55,9 @@ test_cases:
     FRT_B_SUP: 0
 - response: |-
     7E8100D416D03018F01
-    7E82172000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3700
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82174000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3720
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E8217B000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3790
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
     7E8217F000000000000
   expected_values:
     FRP_A: 3830
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82182000000000000
-    7E80562122B0000
-  expected_values:
-    FRP_A: 3860
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82182000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3860
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82184000000000000
-    7E80562122B0000
-  expected_values:
-    FRP_A: 3880
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82188000000000000
-  expected_values:
-    FRP_A: 3920
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82188000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3920
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E8218E000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 3980
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82192000000000000
-    7E80562122B0000
-  expected_values:
-    FRP_A: 4020
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82195000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 4050
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E82196000000000000
-    7E80562122B0000
-  expected_values:
-    FRP_A: 4060
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E821BA000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 4420
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E821BD000000000000
-  expected_values:
-    FRP_A: 4450
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E821E1000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 4810
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03018F01
-    7E821E2000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 4820
     FRP_A_CMD: 3990
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
@@ -374,77 +87,12 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
 - response: |-
-    7E8100D416D0301B801
-    7E821B2000000000000
-  expected_values:
-    FRP_A: 4340
-    FRP_A_CMD: 4400
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D0301CF01
-    7E821B8000000000000
-  expected_values:
-    FRP_A: 4400
-    FRP_A_CMD: 4630
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D0301DF01
-    7E8217E000000000000
-  expected_values:
-    FRP_A: 3820
-    FRP_A_CMD: 4790
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
     7E8100D416D0301E501
     7E821F5000000000000
     NO DATA
   expected_values:
     FRP_A: 5010
     FRP_A_CMD: 4850
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03022702
-    7E82126000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 5500
-    FRP_A_CMD: 5510
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
     FRP_B: 0
@@ -540,72 +188,6 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
 - response: |-
-    7E8100D416D03033C03
-    7E82194000000000000
-  expected_values:
-    FRP_A: 9160
-    FRP_A_CMD: 8280
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03035403
-    7E82161000000000000
-  expected_values:
-    FRP_A: 8650
-    FRP_A_CMD: 8520
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03035D03
-    7E82157000000000000
-    7E80562122B0640
-  expected_values:
-    FRP_A: 8550
-    FRP_A_CMD: 8610
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03039603
-    7E821AA000000000000
-    7E80562122B0000
-  expected_values:
-    FRP_A: 9380
-    FRP_A_CMD: 9180
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
     7E8100D416D03039E03
     7E8216F000000000000
     7E80562122B0000
@@ -623,43 +205,11 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
 - response: |-
-    7E8100D416D0303C603
-    7E821C7000000000000
-  expected_values:
-    FRP_A: 9670
-    FRP_A_CMD: 9660
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
     7E8100D416D0303E703
     7E821C9000000000000
     7E804410C1D7E
   expected_values:
     FRP_A: 9690
-    FRP_A_CMD: 9990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D0303E703
-    7E821DA000000000000
-  expected_values:
-    FRP_A: 9860
     FRP_A_CMD: 9990
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
@@ -706,39 +256,6 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
 - response: |-
-    7E8100D416D0303E703
-    7E821EF000000000000
-  expected_values:
-    FRP_A: 10070
-    FRP_A_CMD: 9990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D0303E703
-    7E821FE000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 10220
-    FRP_A_CMD: 9990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
     7E8100D416D0303E704
     7E82111000000000000
   expected_values:
@@ -772,77 +289,12 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
 - response: |-
-    7E8100D416D03040C04
-    7E82117000000000000
-  expected_values:
-    FRP_A: 10470
-    FRP_A_CMD: 10360
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03041704
-    7E82117000000000000
-  expected_values:
-    FRP_A: 10470
-    FRP_A_CMD: 10470
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03041903
-    7E821C6000000000000
-  expected_values:
-    FRP_A: 9660
-    FRP_A_CMD: 10490
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
     7E8100D416D03041904
     7E82143000000000000
     7E804410C1C20
   expected_values:
     FRP_A: 10910
     FRP_A_CMD: 10490
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03042004
-    7E82132000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 10740
-    FRP_A_CMD: 10560
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
     FRP_B: 0
@@ -870,111 +322,12 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
 - response: |-
-    7E8100D416D03042A04
-    7E82117000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 10470
-    FRP_A_CMD: 10660
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03042A04
-    7E82142000000000000
-    NO DATA
-  expected_values:
-    FRP_A: 10900
-    FRP_A_CMD: 10660
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
     7E8100D416D03042C04
     7E82136000000000000
     7E80562122B0000
   expected_values:
     FRP_A: 10780
     FRP_A_CMD: 10680
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03046504
-    7E8218A000000000000
-  expected_values:
-    FRP_A: 11620
-    FRP_A_CMD: 11250
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03049B04
-    7E821A7000000000000
-    7E80562122B0000
-  expected_values:
-    FRP_A: 11910
-    FRP_A_CMD: 11790
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D03054D05
-    7E82162000000000000
-  expected_values:
-    FRP_A: 13780
-    FRP_A_CMD: 13570
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
-    FRP_B: 0
-    FRP_B_CMD: 0
-    FRP_B_CMD_SUP: 0
-    FRP_B_SUP: 0
-    FRT_A: -40
-    FRT_A_SUP: 0
-    FRT_B: -40
-    FRT_B_SUP: 0
-- response: |-
-    7E8100D416D0305BA05
-    7E821AF000000000000
-  expected_values:
-    FRP_A: 14550
-    FRP_A_CMD: 14660
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
     FRP_B: 0

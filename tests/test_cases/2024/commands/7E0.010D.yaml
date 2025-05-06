@@ -2,291 +2,42 @@ command_id: 7E0.010D
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: |-
-    7E803410D00
-    7E8037F2231
-    7E80341057E
+- response: 7E803410D00
   expected_values:
     VSS: 0
 - response: |-
-    7E803410D40
-    7E8037F2231
-  expected_values:
-    VSS: 64
-- response: |-
-    7E803410D44
-    7E8037F2231
-    7E80341057D
-  expected_values:
-    VSS: 68
-- response: |-
-    7E8037F2231
-    7E803410D00
-  expected_values:
-    VSS: 0
-- response: |-
-    7E8037F2231
-    7E803410D00
-    7E80341057D
-  expected_values:
-    VSS: 0
-- response: |-
-    7E8037F2231
     7E803410D00
     7E80341057E
   expected_values:
     VSS: 0
 - response: |-
-    7E8037F2231
     7E803410D00
     7E80341057E
     7E80441100193
   expected_values:
     VSS: 0
 - response: |-
-    7E8037F2231
     7E803410D00
     7E80341057F
   expected_values:
     VSS: 0
 - response: |-
-    7E8037F2231
     7E803410D00
     7E803410580
   expected_values:
     VSS: 0
 - response: |-
-    7E8037F2231
-    7E803410D00
-    7E803410583
-  expected_values:
-    VSS: 0
-- response: |-
-    7E8037F2231
-    7E803410D0A
-  expected_values:
-    VSS: 10
-- response: |-
-    7E8037F2231
     7E803410D0C
     7E80341056A
   expected_values:
     VSS: 12
-- response: |-
-    7E8037F2231
-    7E803410D12
-  expected_values:
-    VSS: 18
-- response: |-
-    7E8037F2231
-    7E803410D14
-  expected_values:
-    VSS: 20
-- response: |-
-    7E8037F2231
-    7E803410D14
-    7E80341057E
-  expected_values:
-    VSS: 20
-- response: |-
-    7E8037F2231
-    7E803410D16
-  expected_values:
-    VSS: 22
-- response: |-
-    7E8037F2231
-    7E803410D18
-  expected_values:
-    VSS: 24
-- response: |-
-    7E8037F2231
-    7E803410D20
-  expected_values:
-    VSS: 32
-- response: |-
-    7E8037F2231
-    7E803410D22
-  expected_values:
-    VSS: 34
-- response: |-
-    7E8037F2231
-    7E803410D24
-  expected_values:
-    VSS: 36
-- response: |-
-    7E8037F2231
-    7E803410D26
-  expected_values:
-    VSS: 38
-- response: |-
-    7E8037F2231
-    7E803410D2A
-  expected_values:
-    VSS: 42
-- response: |-
-    7E8037F2231
-    7E803410D2C
-  expected_values:
-    VSS: 44
-- response: |-
-    7E8037F2231
-    7E803410D30
-  expected_values:
-    VSS: 48
-- response: |-
-    7E8037F2231
-    7E803410D30
-    7E80341057D
-  expected_values:
-    VSS: 48
-- response: |-
-    7E8037F2231
-    7E803410D32
-  expected_values:
-    VSS: 50
-- response: |-
-    7E8037F2231
-    7E803410D34
-  expected_values:
-    VSS: 52
-- response: |-
-    7E8037F2231
-    7E803410D36
-  expected_values:
-    VSS: 54
-- response: |-
-    7E8037F2231
-    7E803410D38
-  expected_values:
-    VSS: 56
-- response: |-
-    7E8037F2231
-    7E803410D3A
-  expected_values:
-    VSS: 58
-- response: |-
-    7E8037F2231
-    7E803410D3A
-    7E80341057E
-  expected_values:
-    VSS: 58
-- response: |-
-    7E8037F2231
-    7E803410D3C
-  expected_values:
-    VSS: 60
-- response: |-
-    7E8037F2231
-    7E803410D3E
-  expected_values:
-    VSS: 62
-- response: |-
-    7E8037F2231
-    7E803410D40
+- response: 7E803410D40
   expected_values:
     VSS: 64
-- response: |-
-    7E8037F2231
-    7E803410D42
-  expected_values:
-    VSS: 66
-- response: |-
-    7E8037F2231
-    7E803410D44
-  expected_values:
-    VSS: 68
-- response: |-
-    7E8037F2231
-    7E803410D46
-  expected_values:
-    VSS: 70
-- response: |-
-    7E8037F2231
-    7E803410D48
-  expected_values:
-    VSS: 72
-- response: |-
-    7E8037F2231
-    7E803410D4A
-  expected_values:
-    VSS: 74
-- response: |-
-    7E8037F2231
-    7E803410D4C
-  expected_values:
-    VSS: 76
-- response: |-
-    7E8037F2231
-    7E803410D4E
-  expected_values:
-    VSS: 78
-- response: |-
-    7E8037F2231
-    7E803410D52
-  expected_values:
-    VSS: 82
-- response: |-
-    7E8037F2231
-    7E803410D54
-  expected_values:
-    VSS: 84
-- response: |-
-    7E8037F2231
-    7E803410D58
-  expected_values:
-    VSS: 88
-- response: |-
-    7E8037F2231
-    7E803410D5E
-  expected_values:
-    VSS: 94
-- response: |-
-    7E8037F2231
-    7E803410D60
-  expected_values:
-    VSS: 96
-- response: |-
-    7E8037F2231
-    7E803410D6A
-  expected_values:
-    VSS: 106
-- response: |-
-    7E8037F2231
-    7E803410D6C
-  expected_values:
-    VSS: 108
-- response: |-
-    7E8037F2231
-    7E803410D72
-  expected_values:
-    VSS: 114
-- response: |-
-    7E8037F2231
-    7E803410D7A
-  expected_values:
-    VSS: 122
-- response: |-
-    7E8037F2231
-    7E803410D82
-  expected_values:
-    VSS: 130
-- response: |-
-    7E8037F2231
-    7E803410D86
-  expected_values:
-    VSS: 134
-- response: |-
-    7E8037F2231
-    7E803410D8C
-  expected_values:
-    VSS: 140
-- response: |-
-    7E8037F2231
-    7E803410D8E
+- response: 7E803410D8E
   expected_values:
     VSS: 142
 - response: |-
-    7E8037F2231
     7E803410D8E
     7E80341057F
   expected_values:

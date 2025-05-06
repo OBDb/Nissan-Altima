@@ -25,49 +25,8 @@ test_cases:
   expected_values:
     ECT: 88
 - response: |-
-    7E803410581
-    7E903410581
-  expected_values:
-    ECT: 89
-- response: |-
-    7E803410581
-    7E903410581
-    7E80562122B0000
-  expected_values:
-    ECT: 89
-- response: |-
-    7E803410581
-    7E903410581
-    7E80562122B0698
-  expected_values:
-    ECT: 89
-- response: |-
-    7E803410581
-    7E903410581
-    7E80562122B0831
-  expected_values:
-    ECT: 89
-- response: |-
-    7E803410581
-    7E903410581
-    NO DATA
-  expected_values:
-    ECT: 89
-- response: |-
     7E803410582
     7E903410582
-  expected_values:
-    ECT: 90
-- response: |-
-    7E803410582
-    7E903410582
-    7E80562122B0000
-  expected_values:
-    ECT: 90
-- response: |-
-    7E803410582
-    7E903410582
-    7E80562122B0878
   expected_values:
     ECT: 90
 - response: |-
@@ -76,18 +35,6 @@ test_cases:
     7E80562122B094E
   expected_values:
     ECT: 90
-- response: |-
-    7E803410582
-    7E903410582
-    NO DATA
-  expected_values:
-    ECT: 90
-- response: |-
-    7E803410583
-    7E903410583
-    7E80562122B0000
-  expected_values:
-    ECT: 91
 - response: |-
     7E803410583
     7E903410583

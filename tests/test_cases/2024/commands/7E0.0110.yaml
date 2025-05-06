@@ -3,97 +3,6 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    7E80341057C
-    7E8037F2231
-    7E8044110014C
-  expected_values:
-    ECT: 84
-- response: |-
-    7E8037F2231
-    7E80341057C
-    7E804411000DC
-  expected_values:
-    ECT: 84
-- response: |-
-    7E8037F2231
-    7E80341057C
-    7E8044110015D
-  expected_values:
-    ECT: 84
-- response: |-
-    7E8037F2231
-    7E80341057C
-    7E804411006C7
-  expected_values:
-    ECT: 84
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E80441100123
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E80441100132
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E80441100135
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E8044110013C
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E80441100146
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E8044110020E
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057D
-    7E8044110030F
-  expected_values:
-    ECT: 85
-- response: |-
-    7E8037F2231
-    7E80341057E
-    7E80441100142
-  expected_values:
-    ECT: 86
-- response: |-
-    7E8037F2231
-    7E80341057F
-    7E80441100152
-  expected_values:
-    ECT: 87
-- response: |-
-    7E8037F2231
-    7E80341057F
-    7E80441100A17
-  expected_values:
-    ECT: 87
-- response: |-
-    7E8037F2231
-    7E803410D00
-    7E80341057E
-    7E80441100193
-  expected_values:
-    VSS: 0
-- response: |-
     7E8037F2231
     7E804411000A6
   expected_values:
@@ -440,6 +349,21 @@ test_cases:
     MAF: 3.8
 - response: |-
     7E8037F2231
+    7E80441100185
+  expected_values:
+    MAF: 3.89
+- response: |-
+    7E8037F2231
+    7E80441100188
+  expected_values:
+    MAF: 3.92
+- response: |-
+    7E8037F2231
+    7E8044110018B
+  expected_values:
+    MAF: 3.95
+- response: |-
+    7E8037F2231
     7E8044110018E
   expected_values:
     MAF: 3.98
@@ -473,6 +397,11 @@ test_cases:
     7E804411001B1
   expected_values:
     MAF: 4.33
+- response: |-
+    7E8037F2231
+    7E804411001B4
+  expected_values:
+    MAF: 4.36
 - response: |-
     7E8037F2231
     7E804411001C0
@@ -625,6 +554,11 @@ test_cases:
     MAF: 7.52
 - response: |-
     7E8037F2231
+    7E80441100300
+  expected_values:
+    MAF: 7.68
+- response: |-
+    7E8037F2231
     7E80441100306
   expected_values:
     MAF: 7.74
@@ -683,6 +617,11 @@ test_cases:
     7E804411005AB
   expected_values:
     MAF: 14.51
+- response: |-
+    7E8037F2231
+    7E804411005C7
+  expected_values:
+    MAF: 14.79
 - response: |-
     7E8037F2231
     7E80441100602
@@ -868,6 +807,11 @@ test_cases:
     7E8037F2231
   expected_values:
     MAF: 3.19
+- response: |-
+    7E80441100245
+    7E8037F2231
+  expected_values:
+    MAF: 5.81
 - response: 7E804411002F1
   expected_values:
     MAF: 7.53
@@ -884,43 +828,3 @@ test_cases:
 - response: 7E80441100B2B
   expected_values:
     MAF: 28.59
-- response: |-
-    7E80562122B0000
-    7E80441100123
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E80441100130
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E8044110013B
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E8044110013E
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E8044110013F
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E8044110016B
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E804411001C6
-  expected_values:
-    ALTIMA_CC_S: 0
-- response: |-
-    7E80562122B0000
-    7E804411008D6
-  expected_values:
-    ALTIMA_CC_S: 0

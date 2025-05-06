@@ -5,9 +5,21 @@ test_cases:
 - response: 7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+- response: 7E80562122B042A
+  expected_values:
+    ALTIMA_CC_S: 255
 - response: 7E80562122B044E
   expected_values:
     ALTIMA_CC_S: 255
+- response: 7E80562122B04DC
+  expected_values:
+    ALTIMA_CC_S: 255
 - response: 7E80562122B058E
+  expected_values:
+    ALTIMA_CC_S: 255
+- response: 7E80562122B06F1
+  expected_values:
+    ALTIMA_CC_S: 255
+- response: 7E80562122B094E
   expected_values:
     ALTIMA_CC_S: 255

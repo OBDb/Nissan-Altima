@@ -1,10 +1,10 @@
-command_id: 7E0.0133
+command_id: 7E0.010E
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80341335E
+- response: 7E803410EAB
   expected_values:
-    BARO: 94
-- response: '7E803413361'
+    SPARKADV: 21.5
+- response: 7E803410EAE
   expected_values:
-    BARO: 97
+    SPARKADV: 23

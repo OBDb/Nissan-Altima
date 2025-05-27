@@ -1,6 +1,4 @@
 command_id: 7E0.0105
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: '7E803410555'
   expected_values:
@@ -41,3 +39,79 @@ test_cases:
 - response: '7E803410583'
   expected_values:
     ECT: 91
+- response: |-
+    7E803410D00
+    7E80341057E
+  expected_values:
+    ECT: 86
+- response: |-
+    7E803410D00
+    7E80341057E
+    7E80441100193
+  expected_values:
+    ECT: 86
+- response: |-
+    7E803410D00
+    7E80341057F
+  expected_values:
+    ECT: 87
+- response: |-
+    7E803410D00
+    7E803410580
+  expected_values:
+    ECT: 88
+- response: |-
+    7E803410D0C
+    7E80341056A
+  expected_values:
+    ECT: 66
+- response: |-
+    7E803410D8E
+    7E80341057F
+  expected_values:
+    ECT: 87
+- response: |-
+    7E804410C0ABE
+    7E803410D00
+    7E80341057E
+  expected_values:
+    ECT: 86
+- response: |-
+    7E80562122B0000
+    7E803410559
+  expected_values:
+    ECT: 49
+- response: |-
+    7E80562122B0000
+    7E803410565
+    7E80441100BE5
+  expected_values:
+    ECT: 61
+- response: |-
+    7E80562122B0000
+    7E80341056E
+    7E8044110018A
+  expected_values:
+    ECT: 70
+- response: |-
+    7E80562122B0000
+    7E80341057E
+  expected_values:
+    ECT: 86
+- response: |-
+    7E80562122B0000
+    7E803410580
+  expected_values:
+    ECT: 88
+- response: |-
+    7E80562122B0000
+    7E803410D00
+    7E80341057D
+  expected_values:
+    ECT: 85
+- response: |-
+    7E80562122B0000
+    7E803410D00
+    7E803410582
+  expected_values:
+    ECT: 90

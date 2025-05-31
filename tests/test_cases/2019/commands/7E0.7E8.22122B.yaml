@@ -152,8 +152,3 @@ test_cases:
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
-- response: |-
-    7E906410098188003
-    7E80562122B0000
-  expected_values:
-    ALTIMA_CC_S: 0

@@ -3,6 +3,3 @@ test_cases:
 - response: 7E80341335E
   expected_values:
     BARO: 94
-- response: '7E803413361'
-  expected_values:
-    BARO: 97

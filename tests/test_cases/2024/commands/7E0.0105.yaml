@@ -1,117 +1,143 @@
 command_id: 7E0.0105
 test_cases:
-- response: '7E803410555'
+- response: 7E803410555
   expected_values:
     ECT: 45
-- response: '7E803410573'
+- response: 7E803410573
   expected_values:
     ECT: 75
 - response: |-
     7E80341057C
     7E804411000DC
   expected_values:
-    ECT: 84
+    ECT: 84.0
+    MAF: 2.2
 - response: |-
     7E80341057C
     7E8044110014C
   expected_values:
-    ECT: 84
+    ECT: 84.0
+    MAF: 3.32
 - response: |-
     7E80341057D
     7E80441100132
   expected_values:
-    ECT: 85
+    ECT: 85.0
+    MAF: 3.06
 - response: |-
     7E80341057D
     7E8044110030F
   expected_values:
-    ECT: 85
+    ECT: 85.0
+    MAF: 7.83
 - response: |-
     7E80341057F
     7E80441100152
   expected_values:
-    ECT: 87
+    ECT: 87.0
+    MAF: 3.38
 - response: |-
     7E80341057F
     7E80441100A17
   expected_values:
-    ECT: 87
-- response: '7E803410583'
+    ECT: 87.0
+    MAF: 25.83
+- response: 7E803410583
   expected_values:
     ECT: 91
 - response: |-
     7E803410D00
     7E80341057E
   expected_values:
-    ECT: 86
+    ECT: 86.0
+    VSS: 0
 - response: |-
     7E803410D00
     7E80341057E
     7E80441100193
   expected_values:
-    ECT: 86
+    ECT: 86.0
+    VSS: 0
+    MAF: 4.03
 - response: |-
     7E803410D00
     7E80341057F
   expected_values:
-    ECT: 87
+    ECT: 87.0
+    VSS: 0
 - response: |-
     7E803410D00
     7E803410580
   expected_values:
-    ECT: 88
+    ECT: 88.0
+    VSS: 0
 - response: |-
     7E803410D0C
     7E80341056A
   expected_values:
-    ECT: 66
+    ECT: 66.0
+    VSS: 12.0
 - response: |-
     7E803410D8E
     7E80341057F
   expected_values:
-    ECT: 87
+    ECT: 87.0
+    VSS: 142.0
 - response: |-
     7E804410C0ABE
     7E803410D00
     7E80341057E
   expected_values:
-    ECT: 86
+    ECT: 86.0
+    RPM: 687.5
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E803410559
   expected_values:
-    ECT: 49
+    ECT: 49.0
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E803410565
     7E80441100BE5
   expected_values:
-    ECT: 61
+    ECT: 61.0
+    ALTIMA_CC_S: 0
+    MAF: 30.45
 - response: |-
     7E80562122B0000
     7E80341056E
     7E8044110018A
   expected_values:
-    ECT: 70
+    ECT: 70.0
+    ALTIMA_CC_S: 0
+    MAF: 3.94
 - response: |-
     7E80562122B0000
     7E80341057E
   expected_values:
-    ECT: 86
+    ECT: 86.0
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E803410580
   expected_values:
-    ECT: 88
+    ECT: 88.0
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E803410D00
     7E80341057D
   expected_values:
-    ECT: 85
+    ECT: 85.0
+    ALTIMA_CC_S: 0
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E803410D00
     7E803410582
   expected_values:
-    ECT: 90
+    ECT: 90.0
+    ALTIMA_CC_S: 0
+    VSS: 0

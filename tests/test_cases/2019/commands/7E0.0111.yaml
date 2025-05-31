@@ -5,7 +5,7 @@ test_cases:
     7E903411111
   expected_values:
     TP: 6.66667
-- response: '7E803411112'
+- response: 7E803411112
   expected_values:
     TP: 7.05882
 - response: |-
@@ -14,6 +14,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     TP: 7.05882
+    ALTIMA_CC_S: 0
 - response: |-
     7E803411112
     7E903411112
@@ -26,6 +27,7 @@ test_cases:
     7E80562122B06F1
   expected_values:
     TP: 10.19608
+    ALTIMA_CC_S: 255
 - response: |-
     7E80341111B
     7E90341111C
@@ -37,6 +39,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     TP: 11.76471
+    ALTIMA_CC_S: 0
 - response: |-
     7E803411120
     7E90341111F
@@ -61,6 +64,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     TP: 36.07843
+    ALTIMA_CC_S: 0
 - response: |-
     7E803411177
     7E903411176
@@ -72,16 +76,19 @@ test_cases:
     7E803411151
   expected_values:
     TP: 31.76471
+    RPM: 1975.0
 - response: |-
     7E903411112
     7E803412F38
   expected_values:
     TP: 7.05882
+    FLI: 21.96078
 - response: |-
     7E903411113
     7E803412F6C
   expected_values:
     TP: 7.45098
-- response: '7E903411121'
+    FLI: 42.35294
+- response: 7E903411121
   expected_values:
     TP: 12.94118

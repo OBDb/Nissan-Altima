@@ -28,12 +28,14 @@ test_cases:
     7E80562122B0000
   expected_values:
     VPWR: 12.512
+    ALTIMA_CC_S: 0
 - response: |-
     7E804414230C0
     7E904414232F0
     7E80562122B0000
   expected_values:
     VPWR: 13.04
+    ALTIMA_CC_S: 0
 - response: |-
     7E80441423110
     7E90441423240
@@ -46,12 +48,14 @@ test_cases:
     7E80562122B094E
   expected_values:
     VPWR: 13.176
+    ALTIMA_CC_S: 255
 - response: |-
     7E804414231B0
     7E904414232A1
     7E80562122B06F1
   expected_values:
     VPWR: 12.961
+    ALTIMA_CC_S: 255
 - response: |-
     7E80441423200
     7E90441423190
@@ -63,12 +67,14 @@ test_cases:
     7E80562122B0000
   expected_values:
     VPWR: 12.825
+    ALTIMA_CC_S: 0
 - response: |-
     7E804414232A0
     7E9044142344F
     7E80562122B07D8
   expected_values:
     VPWR: 13.391
+    ALTIMA_CC_S: 255
 - response: |-
     7E804414232F0
     7E904414232A1
@@ -80,6 +86,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     VPWR: 13.978
+    ALTIMA_CC_S: 0
 - response: |-
     7E80441423610
     7E9044142386F

@@ -15,7 +15,8 @@ test_cases:
     7E903410580
     7E80562122B0000
   expected_values:
-    ECT: 88
+    ECT: 88.0
+    ALTIMA_CC_S: 0
 - response: |-
     7E803410580
     7E903410580
@@ -32,13 +33,15 @@ test_cases:
     7E903410582
     7E80562122B094E
   expected_values:
-    ECT: 90
+    ECT: 90.0
+    ALTIMA_CC_S: 255
 - response: |-
     7E803410583
     7E903410583
     7E80562122B07A3
   expected_values:
-    ECT: 91
+    ECT: 91.0
+    ALTIMA_CC_S: 255
 - response: |-
     7E803410583
     7E903410583
@@ -50,4 +53,5 @@ test_cases:
     7E903410584
     7E80562122B0000
   expected_values:
-    ECT: 92
+    ECT: 92.0
+    ALTIMA_CC_S: 0

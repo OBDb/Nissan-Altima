@@ -8,22 +8,27 @@ test_cases:
     7E803410D00
   expected_values:
     RPM: 662.5
+    VSS: 0
 - response: |-
     7E804410C0ABE
     7E803410D00
     7E80341057E
   expected_values:
     RPM: 687.5
+    VSS: 0
+    ECT: 86.0
 - response: |-
     7E804410C0ABE
     7E80562122B0000
   expected_values:
     RPM: 687.5
+    ALTIMA_CC_S: 0
 - response: |-
     7E804410C0AF0
     7E803410D00
   expected_values:
-    RPM: 700
+    RPM: 700.0
+    VSS: 0
 - response: 7E804410C0F0A
   expected_values:
     RPM: 962.5
@@ -34,12 +39,14 @@ test_cases:
     7E804410C2008
     7E803410D5A
   expected_values:
-    RPM: 2050
+    RPM: 2050.0
+    VSS: 90.0
 - response: |-
     7E804410C2FA8
     7E803410D90
   expected_values:
-    RPM: 3050
+    RPM: 3050.0
+    VSS: 144.0
 - response: 7E804410C42FE
   expected_values:
     RPM: 4287.5
@@ -47,32 +54,41 @@ test_cases:
     7E80562122B0000
     7E804410C05DC
   expected_values:
-    RPM: 375
+    RPM: 375.0
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E804410C0A8C
     7E803410D00
   expected_values:
-    RPM: 675
+    RPM: 675.0
+    ALTIMA_CC_S: 0
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E804410C0ABE
   expected_values:
     RPM: 687.5
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E804410C0ABE
     7E803410D00
   expected_values:
     RPM: 687.5
+    ALTIMA_CC_S: 0
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E804410C0AF0
     7E803410D00
   expected_values:
-    RPM: 700
+    RPM: 700.0
+    ALTIMA_CC_S: 0
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E804410C1162
   expected_values:
     RPM: 1112.5
+    ALTIMA_CC_S: 0

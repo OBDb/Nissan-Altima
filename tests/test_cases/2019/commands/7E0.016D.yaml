@@ -22,10 +22,10 @@ test_cases:
     7E8216D000000000000
     7E80562122B0000
   expected_values:
-    FRP_A: 3650
-    FRP_A_CMD: 3990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 3650.0
+    FRP_A_CMD: 3990.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -34,6 +34,7 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 0
 - response: |-
     7E8100D416D03018F01
     7E82171000000000000
@@ -106,10 +107,10 @@ test_cases:
     7E82111000000000000
     7E80562122B0000
   expected_values:
-    FRP_A: 5290
-    FRP_A_CMD: 5670
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 5290.0
+    FRP_A_CMD: 5670.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -118,15 +119,16 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 0
 - response: |-
     7E8100D416D03027E02
     7E821A4000000000000
     7E80562122B0698
   expected_values:
-    FRP_A: 6760
-    FRP_A_CMD: 6380
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 6760.0
+    FRP_A_CMD: 6380.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -135,15 +137,16 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 255
 - response: |-
     7E8100D416D0302D402
     7E82195000000000000
     7E80562122B0791
   expected_values:
-    FRP_A: 6610
-    FRP_A_CMD: 7240
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 6610.0
+    FRP_A_CMD: 7240.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -152,6 +155,7 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 255
 - response: |-
     7E8100D416D0302F202
     7E821E7000000000000
@@ -190,10 +194,10 @@ test_cases:
     7E8216F000000000000
     7E80562122B0000
   expected_values:
-    FRP_A: 8790
-    FRP_A_CMD: 9260
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 8790.0
+    FRP_A_CMD: 9260.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -202,15 +206,16 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 0
 - response: |-
     7E8100D416D0303E703
     7E821C9000000000000
     7E804410C1D7E
   expected_values:
-    FRP_A: 9690
-    FRP_A_CMD: 9990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 9690.0
+    FRP_A_CMD: 9990.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -219,15 +224,16 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    RPM: 1887.5
 - response: |-
     7E8100D416D0303E703
     7E821E3000000000000
     7E80562122B0000
   expected_values:
-    FRP_A: 9950
-    FRP_A_CMD: 9990
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 9950.0
+    FRP_A_CMD: 9990.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -236,6 +242,7 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 0
 - response: |-
     7E8100D416D0303E703
     7E821E6000000000000
@@ -291,10 +298,10 @@ test_cases:
     7E82143000000000000
     7E804410C1C20
   expected_values:
-    FRP_A: 10910
-    FRP_A_CMD: 10490
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 10910.0
+    FRP_A_CMD: 10490.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -303,6 +310,7 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    RPM: 1800.0
 - response: |-
     7E8100D416D03042304
     7E82110000000000000
@@ -324,10 +332,10 @@ test_cases:
     7E82136000000000000
     7E80562122B0000
   expected_values:
-    FRP_A: 10780
-    FRP_A_CMD: 10680
-    FRP_A_CMD_SUP: 1
-    FRP_A_SUP: 1
+    FRP_A: 10780.0
+    FRP_A_CMD: 10680.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
     FRP_B: 0
     FRP_B_CMD: 0
     FRP_B_CMD_SUP: 0
@@ -336,6 +344,7 @@ test_cases:
     FRT_A_SUP: 0
     FRT_B: -40
     FRT_B_SUP: 0
+    ALTIMA_CC_S: 0
 - response: |-
     7E8100D416D03060306
     7E82113000000000000

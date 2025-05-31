@@ -6,84 +6,98 @@ test_cases:
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 88.0
 - response: |-
     7E803410582
     7E903410582
     7E80562122B094E
   expected_values:
     ALTIMA_CC_S: 255
+    ECT: 90.0
 - response: |-
     7E803410584
     7E903410584
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 92.0
 - response: |-
     7E803411112
     7E903411112
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    TP: 7.05882
 - response: |-
     7E80341111A
     7E90341111A
     7E80562122B06F1
   expected_values:
     ALTIMA_CC_S: 255
+    TP: 10.19608
 - response: |-
     7E803411120
     7E90341111E
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    TP: 11.76471
 - response: |-
     7E804410C1004
     7E904410C0FD2
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 1012.5
 - response: |-
     7E804410C1900
     7E904410C1932
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 1612.5
 - response: |-
     7E804410C2008
     7E904410C1FD6
     7E80562122B094E
   expected_values:
     ALTIMA_CC_S: 255
+    RPM: 2037.5
 - response: |-
     7E80441423020
     7E904414230E0
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    VPWR: 12.512
 - response: |-
     7E804414230C0
     7E904414232F0
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    VPWR: 13.04
 - response: |-
     7E804414231B0
     7E904414232A1
     7E80562122B06F1
   expected_values:
     ALTIMA_CC_S: 255
+    VPWR: 12.961
 - response: |-
     7E804414232A0
     7E9044142344F
     7E80562122B07D8
   expected_values:
     ALTIMA_CC_S: 255
+    VPWR: 13.391
 - response: |-
     7E80441423610
     7E9044142369A
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    VPWR: 13.978
 - response: 7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
@@ -116,42 +130,126 @@ test_cases:
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    FRP_A: 3650.0
+    FRP_A_CMD: 3990.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D03023702
     7E82111000000000000
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    FRP_A: 5290.0
+    FRP_A_CMD: 5670.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D03027E02
     7E821A4000000000000
     7E80562122B0698
   expected_values:
     ALTIMA_CC_S: 255
+    FRP_A: 6760.0
+    FRP_A_CMD: 6380.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D0302D402
     7E82195000000000000
     7E80562122B0791
   expected_values:
     ALTIMA_CC_S: 255
+    FRP_A: 6610.0
+    FRP_A_CMD: 7240.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D03039E03
     7E8216F000000000000
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    FRP_A: 8790.0
+    FRP_A_CMD: 9260.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D0303E703
     7E821E3000000000000
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    FRP_A: 9950.0
+    FRP_A_CMD: 9990.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D03042C04
     7E82136000000000000
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    FRP_A: 10780.0
+    FRP_A_CMD: 10680.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E906410098188003
     7E80562122B0000

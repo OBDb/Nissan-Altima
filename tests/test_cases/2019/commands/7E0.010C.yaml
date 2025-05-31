@@ -31,6 +31,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     RPM: 1012.5
+    ALTIMA_CC_S: 0
 - response: |-
     7E804410C1004
     7E904410C1004
@@ -59,6 +60,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     RPM: 1612.5
+    ALTIMA_CC_S: 0
 - response: |-
     7E804410C19FA
     7E904410C19FA
@@ -70,7 +72,8 @@ test_cases:
     7E904410C1BBC
     7E80562122B0000
   expected_values:
-    RPM: 1775
+    RPM: 1775.0
+    ALTIMA_CC_S: 0
 - response: |-
     7E804410C1B8A
     7E904410C203A
@@ -83,6 +86,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     RPM: 1987.5
+    ALTIMA_CC_S: 0
 - response: |-
     7E804410C1FA4
     7E904410C1FD6
@@ -93,7 +97,8 @@ test_cases:
     7E904410C1EDC
     7E803411151
   expected_values:
-    RPM: 1975
+    RPM: 1975.0
+    TP: 31.76471
 - response: |-
     7E804410C1FD6
     7E904410C2008
@@ -105,6 +110,7 @@ test_cases:
     7E80562122B094E
   expected_values:
     RPM: 2037.5
+    ALTIMA_CC_S: 255
 - response: |-
     7E804410C203A
     7E904410C1FD6
@@ -122,12 +128,36 @@ test_cases:
     7E804410C1D7E
   expected_values:
     RPM: 1887.5
+    FRP_A: 9690.0
+    FRP_A_CMD: 9990.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E8100D416D03041904
     7E82143000000000000
     7E804410C1C20
   expected_values:
-    RPM: 1800
+    RPM: 1800.0
+    FRP_A: 10910.0
+    FRP_A_CMD: 10490.0
+    FRP_A_CMD_SUP: 1.0
+    FRP_A_SUP: 1.0
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
 - response: |-
     7E82172000000000000
     7E804410C0B86

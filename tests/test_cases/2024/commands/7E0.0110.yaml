@@ -5,41 +5,49 @@ test_cases:
     7E804411000DC
   expected_values:
     MAF: 2.2
+    ECT: 84.0
 - response: |-
     7E80341057C
     7E8044110014C
   expected_values:
     MAF: 3.32
+    ECT: 84.0
 - response: |-
     7E80341057D
     7E80441100132
   expected_values:
     MAF: 3.06
+    ECT: 85.0
 - response: |-
     7E80341057D
     7E8044110030F
   expected_values:
     MAF: 7.83
+    ECT: 85.0
 - response: |-
     7E80341057F
     7E80441100152
   expected_values:
     MAF: 3.38
+    ECT: 87.0
 - response: |-
     7E80341057F
     7E80441100A17
   expected_values:
     MAF: 25.83
+    ECT: 87.0
 - response: |-
     7E803410D00
     7E80341057E
     7E80441100193
   expected_values:
     MAF: 4.03
+    VSS: 0
+    ECT: 86.0
 - response: 7E804411000A6
   expected_values:
     MAF: 1.66
-- response: '7E80441100300'
+- response: 7E80441100300
   expected_values:
     MAF: 7.68
 - response: 7E804411004FC
@@ -54,29 +62,37 @@ test_cases:
     7E80441100BE5
   expected_values:
     MAF: 30.45
+    ALTIMA_CC_S: 0
+    ECT: 61.0
 - response: |-
     7E80562122B0000
     7E80341056E
     7E8044110018A
   expected_values:
     MAF: 3.94
+    ALTIMA_CC_S: 0
+    ECT: 70.0
 - response: |-
     7E80562122B0000
     7E80441100123
   expected_values:
     MAF: 2.91
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E80441100130
   expected_values:
     MAF: 3.04
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E8044110013F
   expected_values:
     MAF: 3.19
+    ALTIMA_CC_S: 0
 - response: |-
     7E80562122B0000
     7E804411008D6
   expected_values:
     MAF: 22.62
+    ALTIMA_CC_S: 0

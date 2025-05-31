@@ -41,4 +41,5 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   7E0:
   - 7E0.7E8.221186:ALTIMA_FLV
+  - 7E0.7E8.22122B:ALTIMA_CC_S
   - 7E0.7E8.221266:ALTIMA_VVTO_T

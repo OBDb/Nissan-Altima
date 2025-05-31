@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 30, "dbgfilter": { "from": 2025, "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018] },
   "signals": [
-    {"id": "ALTIMA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 255, "unit": "kilometersPerHr" }, "name": "Cruise control speed"}
+    {"id": "ALTIMA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]}
 ]
 }

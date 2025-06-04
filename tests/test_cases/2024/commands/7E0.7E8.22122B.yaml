@@ -5,6 +5,7 @@ test_cases:
     7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 687.5
 - response: 7E80562122B0000
   expected_values:
     ALTIMA_CC_S: 0
@@ -13,82 +14,103 @@ test_cases:
     7E803410559
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 49.0
 - response: |-
     7E80562122B0000
     7E803410565
     7E80441100BE5
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 61.0
+    MAF: 30.45
 - response: |-
     7E80562122B0000
     7E80341056E
     7E8044110018A
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 70.0
+    MAF: 3.94
 - response: |-
     7E80562122B0000
     7E80341057E
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 86.0
 - response: |-
     7E80562122B0000
     7E803410580
   expected_values:
     ALTIMA_CC_S: 0
+    ECT: 88.0
 - response: |-
     7E80562122B0000
     7E803410D00
     7E80341057D
   expected_values:
     ALTIMA_CC_S: 0
+    VSS: 0
+    ECT: 85.0
 - response: |-
     7E80562122B0000
     7E803410D00
     7E803410582
   expected_values:
     ALTIMA_CC_S: 0
+    VSS: 0
+    ECT: 90.0
 - response: |-
     7E80562122B0000
     7E803410D50
   expected_values:
     ALTIMA_CC_S: 0
+    VSS: 80.0
 - response: |-
     7E80562122B0000
     7E804410C05DC
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 375.0
 - response: |-
     7E80562122B0000
     7E804410C0A8C
     7E803410D00
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 675.0
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E804410C0ABE
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 687.5
 - response: |-
     7E80562122B0000
     7E804410C0AF0
     7E803410D00
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 700.0
+    VSS: 0
 - response: |-
     7E80562122B0000
     7E804410C1162
   expected_values:
     ALTIMA_CC_S: 0
+    RPM: 1112.5
 - response: |-
     7E80562122B0000
     7E80441100123
   expected_values:
     ALTIMA_CC_S: 0
+    MAF: 2.91
 - response: |-
     7E80562122B0000
     7E8044110013F
   expected_values:
     ALTIMA_CC_S: 0
+    MAF: 3.19
 - response: 7E80562122B07EF
   expected_values:
     ALTIMA_CC_S: 255

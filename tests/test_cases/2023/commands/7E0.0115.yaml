@@ -1,14 +1,14 @@
 command_id: 7E0.0115
 test_cases:
-- response: 7E804411579FF
-  expected_values:
+- expected_values:
     O2S12: 0.605
     SHRTFT11: 99.21875
-- response: 7E804411581FF
-  expected_values:
+  response: 7E804411579FF
+- expected_values:
     O2S12: 0.645
     SHRTFT11: 99.21875
-- response: 7E804411583FF
-  expected_values:
+  response: 7E804411581FF
+- expected_values:
     O2S12: 0.655
     SHRTFT11: 99.21875
+  response: 7E804411583FF

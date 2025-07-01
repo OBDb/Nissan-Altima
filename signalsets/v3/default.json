@@ -62,7 +62,7 @@
   ]},
 { "hdr": "797", "fcm1": true, "dbg": true, "cmd": {"22": "1156"}, "freq": 1,
   "signals": [
-    {"id": "ALTIMA_GEAR", "path": "Engine", "name": "Gear", "fmt": {"len": 8, "map": {
+    {"id": "ALTIMA_GEAR", "path": "Transmission", "name": "Gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Park",    "value": "PARK" },
           "2": { "description": "Reverse", "value": "REVERSE" },
           "3": { "description": "Neutral", "value": "NEUTRAL" },

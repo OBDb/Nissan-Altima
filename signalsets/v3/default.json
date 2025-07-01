@@ -122,7 +122,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "1266"}, "freq": 30,
   "signals": [
-    {"id": "ALTIMA_V3", "path": "Fluids", "fmt": { "len": 16, "max": 500, "min": -500, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "Vvt oil temperature"}
+    {"id": "ALTIMA_V3", "path": "Fluids", "fmt": { "len": 16, "max": 500, "min": -500, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "VVT oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1186"}, "freq": 30,
   "signals": [
@@ -134,7 +134,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1266"}, "freq": 30,
   "signals": [
-    {"id": "ALTIMA_VVTO_T", "path": "Fluids", "fmt": { "len": 16, "max": 500, "min": -500, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "Vvt oil temperature"}
+    {"id": "ALTIMA_VVTO_T", "path": "Fluids", "fmt": { "len": 16, "max": 500, "min": -500, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "VVT oil temperature"}
   ]}
 ]
 }

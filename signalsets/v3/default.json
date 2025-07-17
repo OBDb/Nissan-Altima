@@ -32,14 +32,6 @@
   "signals": [
     {"id": "NISSAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "744", "dbg": true, "cmd": {"22": "40B3"}, "freq": 1,
-  "signals": [
-    {"id": "NISSAN_AC_TIME", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "A/C runtime"}
-  ]},
-{ "hdr": "744", "dbg": true, "cmd": {"22": "40BA"}, "freq": 1,
-  "signals": [
-    {"id": "NISSAN_AC_T_OUTLET", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "A/C outlet temperature"}
-  ]},
 { "hdr": "744", "dbg": true, "cmd": {"22": "F467"}, "freq": 1,
   "signals": [
     {"id": "NISSAN_ECT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Engine coolant temperature"}

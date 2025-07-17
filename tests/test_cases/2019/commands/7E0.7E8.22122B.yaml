@@ -94,10 +94,10 @@ test_cases:
     OK
 - expected_values:
     ALTIMA_CC_S: 255
-  response: 7E80562122B06F1
+  response: 7E80562122B090D
 - expected_values:
     ALTIMA_CC_S: 255
-  response: 7E80562122B094E
+  response: 7E80562122B09F2
 - expected_values:
     ALTIMA_CC_S: 0
   response: |-

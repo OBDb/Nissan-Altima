@@ -24,6 +24,26 @@
   "signals": [
     {"id": "NISSAN_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
+{ "hdr": "744", "dbg": true, "cmd": {"22": "4007"}, "freq": 1,
+  "signals": [
+    {"id": "NISSAN_AC_STATUS", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "offon" }, "name": "A/C status"}
+  ]},
+{ "hdr": "744", "dbg": true, "cmd": {"22": "4008"}, "freq": 1,
+  "signals": [
+    {"id": "NISSAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "744", "dbg": true, "cmd": {"22": "40B3"}, "freq": 1,
+  "signals": [
+    {"id": "NISSAN_AC_TIME", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "A/C runtime"}
+  ]},
+{ "hdr": "744", "dbg": true, "cmd": {"22": "40BA"}, "freq": 1,
+  "signals": [
+    {"id": "NISSAN_AC_T_OUTLET", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "A/C outlet temperature"}
+  ]},
+{ "hdr": "744", "dbg": true, "cmd": {"22": "F467"}, "freq": 1,
+  "signals": [
+    {"id": "NISSAN_ECT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Engine coolant temperature"}
+  ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}

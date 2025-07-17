@@ -1,7 +1,11 @@
 { "commands": [
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25,
+  "signals": [
+    {"id": "ALTIMA_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
+  ]},
 { "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.25,
   "signals": [
-    {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+    {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
   ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0201"}, "freq": 5,
   "signals": [

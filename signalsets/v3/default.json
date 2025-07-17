@@ -7,6 +7,10 @@
   "signals": [
     {"id": "ALTIMA_RADAR_DISTANCE", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" }, "name": "Radar distance"}
   ]},
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.1,
+  "signals": [
+    {"id": "ALTIMA_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "metersPerSecond" }, "name": "Relative speed"}
+  ]},
 { "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0110"}, "freq": 0.1,
   "signals": [
     {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}

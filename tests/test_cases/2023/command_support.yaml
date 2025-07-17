@@ -111,8 +111,8 @@ supported_commands_by_ecu:
   - 0147:TP_B
 unsupported_commands_by_ecu:
   "7E0":
-  - 7E0.7E8.221186:NISSAN_FLV
-  - 7E0.7E8.221266:NISSAN_VVTO_T
+  - 7E0.7E8.221186
+  - 7E0.7E8.221266
   "7E1":
   - 7E1.7E9.010D
   - 7E1.7E9.0142

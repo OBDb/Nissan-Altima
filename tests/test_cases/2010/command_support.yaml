@@ -40,6 +40,6 @@ supported_commands_by_ecu:
   - 0151:FUEL_TYP
 unsupported_commands_by_ecu:
   "7E0":
-  - 7E0.7E8.221186:NISSAN_FLV
+  - 7E0.7E8.221186
   - 7E0.7E8.22122B:NISSAN_CC_S
-  - 7E0.7E8.221266:NISSAN_VVTO_T
+  - 7E0.7E8.221266

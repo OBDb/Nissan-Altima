@@ -1,4 +1,8 @@
 { "commands": [
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.25,
+  "signals": [
+    {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+  ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0201"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure"}

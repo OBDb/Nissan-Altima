@@ -1,0 +1,32 @@
+command_id: 723.735.220110
+test_cases:
+- expected_values:
+    ALTIMA_STEER_ANGLE: 3.4
+  response: '735056201100022'
+- expected_values:
+    ALTIMA_STEER_ANGLE: 3.8
+  response: '735056201100026'
+- expected_values:
+    ALTIMA_STEER_ANGLE: 3.9
+  response: '735056201100027'
+- expected_values:
+    ALTIMA_STEER_ANGLE: 12.6
+  response: 73505620110007E
+- expected_values:
+    ALTIMA_STEER_ANGLE: 96.1
+  response: 7350562011003C1
+- expected_values:
+    ALTIMA_STEER_ANGLE: -77.1
+  response: 73505620110FCFD
+- expected_values:
+    ALTIMA_STEER_ANGLE: -31.6
+  response: 73505620110FEC4
+- expected_values:
+    ALTIMA_STEER_ANGLE: -20.7
+  response: 73505620110FF31
+- expected_values:
+    ALTIMA_STEER_ANGLE: -19.6
+  response: 73505620110FF3C
+- expected_values:
+    ALTIMA_STEER_ANGLE: -12.6
+  response: 73505620110FF82

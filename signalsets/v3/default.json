@@ -1,111 +1,55 @@
 { "commands": [
-{ "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0101"}, "freq": 0.1,
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.1,
+{ "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0107"}, "freq": 0.1,
   "signals": [
     {"id": "ALTIMA_RADAR_DISTANCE", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" }, "name": "Radar distance"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.1,
+{ "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0108"}, "freq": 0.1,
   "signals": [
-    {"id": "ALTIMA_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
+    {"id": "ALTIMA_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
   ]},
-{ "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0110"}, "freq": 0.1,
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0201"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0202"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0203"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0204"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020D"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020E"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020F"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0210"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0220"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS1_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure, range 1"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0221"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS1_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure, range 1"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0222"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS1_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure, range 1"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0223"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS1_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure, range 1"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0224"}, "freq": 5,
-  "signals": [
-    {"id": "ALTIMA_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Front left tire temperature"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0225"}, "freq": 5,
-  "signals": [
-    {"id": "ALTIMA_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Front right tire temperature"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0226"}, "freq": 5,
-  "signals": [
-    {"id": "ALTIMA_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Rear right tire temperature"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0227"}, "freq": 5,
-  "signals": [
-    {"id": "ALTIMA_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Rear left tire temperature"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0228"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS2_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure, range 2"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0229"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS2_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure, range 2"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "022A"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS2_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure, range 2"}
-  ]},
-{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "022B"}, "freq": 60,
-  "signals": [
-    {"id": "ALTIMA_TPS2_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure, range 2"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1186"}, "freq": 30,
-  "signals": [
-    {"id": "ALTIMA_FLV", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel remaining"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2026 },
   "signals": [
     {"id": "ALTIMA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cruise control speed"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1266"}, "freq": 30,
-  "signals": [
-    {"id": "ALTIMA_VVTO_T", "path": "Fluids", "fmt": { "len": 16, "max": 500, "min": -500, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "VVT oil temperature"}
   ]}
 ]
 }

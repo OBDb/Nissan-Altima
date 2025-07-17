@@ -30,11 +30,11 @@
   ]},
 { "hdr": "744", "dbg": true, "cmd": {"22": "4008"}, "freq": 1,
   "signals": [
-    {"id": "NISSAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Ambient air temperature"}
+    {"id": "NISSAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
 { "hdr": "744", "dbg": true, "cmd": {"22": "F467"}, "freq": 1,
   "signals": [
-    {"id": "NISSAN_ECT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Engine coolant temperature"}
+    {"id": "NISSAN_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [

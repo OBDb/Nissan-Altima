@@ -1,33 +1,49 @@
 { "commands": [
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0201"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0201"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0202"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0202"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0203"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0203"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0204"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0204"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0224"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020D"}, "freq": 5,
+  "signals": [
+    {"id": "ALTIMA_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 42.5, "div": 6, "unit": "psi" }, "name": "Front left tire pressure, warning"}
+  ]},
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020E"}, "freq": 5,
+  "signals": [
+    {"id": "ALTIMA_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 42.5, "div": 6, "unit": "psi" }, "name": "Front right tire pressure, warning"}
+  ]},
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020F"}, "freq": 5,
+  "signals": [
+    {"id": "ALTIMA_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 42.5, "div": 6, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
+  ]},
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0210"}, "freq": 5,
+  "signals": [
+    {"id": "ALTIMA_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 42.5, "div": 6, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
+  ]},
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0224"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Front left tire temperature"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0225"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0225"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Front right tire temperature"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0226"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0226"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Rear right tire temperature"}
   ]},
-{ "hdr": "758", "dbg": true, "cmd": {"22": "0227"}, "freq": 5,
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0227"}, "freq": 5,
   "signals": [
     {"id": "ALTIMA_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 225, "min": -30, "add": -30, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]},

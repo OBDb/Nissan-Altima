@@ -1,5 +1,8 @@
 command_id: 743.763.220E01|fc=1
 test_cases:
 - expected_values:
-    NISSAN_ODO: 11129
+    ALTIMA_ODO: 11129
   response: 76306620E01002B79
+- expected_values:
+    ALTIMA_ODO: 11136
+  response: 76306620E01002B80

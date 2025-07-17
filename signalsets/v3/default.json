@@ -9,7 +9,7 @@
   ]},
 { "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.1,
   "signals": [
-    {"id": "ALTIMA_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "metersPerSecond" }, "name": "Relative speed"}
+    {"id": "ALTIMA_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
   ]},
 { "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0110"}, "freq": 0.1,
   "signals": [

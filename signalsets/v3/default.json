@@ -1,27 +1,27 @@
 { "commands": [
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25,
+{ "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0101"}, "freq": 0.1,
   "signals": [
     {"id": "ALTIMA_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.25,
+{ "hdr": "723", "rax": "735", "dbg": true, "cmd": {"22": "0110"}, "freq": 0.1,
   "signals": [
     {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
   ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0201"}, "freq": 5,
   "signals": [
-    {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure"}
+    {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0202"}, "freq": 5,
   "signals": [
-    {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure"}
+    {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0203"}, "freq": 5,
   "signals": [
-    {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure"}
+    {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0204"}, "freq": 5,
   "signals": [
-    {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure"}
+    {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "020D"}, "freq": 5,
   "signals": [

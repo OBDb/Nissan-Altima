@@ -1,0 +1,11 @@
+command_id: 723.735.220107
+test_cases:
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 0
+  response: '735056201070000'
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 50.9
+  response: 7350562010701FD
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 82
+  response: '735056201070334'

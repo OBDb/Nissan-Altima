@@ -1,0 +1,11 @@
+command_id: 723.735.220101
+test_cases:
+- expected_values:
+    ALTIMA_YAW_RATE: 0
+  response: '735056201010000'
+- expected_values:
+    ALTIMA_YAW_RATE: -17.7
+  response: 73505620101FF4F
+- expected_values:
+    ALTIMA_YAW_RATE: -0.1
+  response: 73505620101FFFF

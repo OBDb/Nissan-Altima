@@ -4,5 +4,8 @@ test_cases:
     ALTIMA_ODO: 11129
   response: 76306620E01002B79
 - expected_values:
-    ALTIMA_ODO: 11136
-  response: 76306620E01002B80
+    ALTIMA_ODO: 11263
+  response: 76306620E01002BFF
+- expected_values:
+    ALTIMA_ODO: 11264
+  response: 76306620E01002C00

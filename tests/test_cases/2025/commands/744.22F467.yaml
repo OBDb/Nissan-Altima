@@ -1,32 +1,8 @@
 command_id: 744.22F467
 test_cases:
 - expected_values:
-    ALTIMA_ECT: 86
-  response: 7640462F4677E
+    ALTIMA_ECT: -40
+  response: 7640462F46700
 - expected_values:
-    ALTIMA_ECT: 87
-  response: 7640462F4677F
-- expected_values:
-    ALTIMA_ECT: 88
-  response: 7640462F46780
-- expected_values:
-    ALTIMA_ECT: 89
-  response: 7640462F46781
-- expected_values:
-    ALTIMA_ECT: 91
-  response: 7640462F46783
-- expected_values:
-    ALTIMA_ECT: 93
-  response: 7640462F46785
-- expected_values:
-    ALTIMA_ECT: 94
-  response: 7640462F46786
-- expected_values:
-    ALTIMA_ECT: 95
-  response: 7640462F46787
-- expected_values:
-    ALTIMA_ECT: 96
-  response: 7640462F46788
-- expected_values:
-    ALTIMA_ECT: 97
-  response: 7640462F46789
+    ALTIMA_ECT: 98
+  response: 7640462F4678A

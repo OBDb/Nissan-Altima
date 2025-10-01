@@ -4,8 +4,8 @@ test_cases:
     ALTIMA_YAW_RATE: 0
   response: '735056201010000'
 - expected_values:
-    ALTIMA_YAW_RATE: -17.7
-  response: 73505620101FF4F
+    ALTIMA_YAW_RATE: -19.6
+  response: 73505620101FF3C
 - expected_values:
     ALTIMA_YAW_RATE: -0.1
   response: 73505620101FFFF

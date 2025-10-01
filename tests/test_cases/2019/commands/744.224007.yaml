@@ -8,4 +8,10 @@ test_cases:
   response: 76407624007897DD9FE
 - expected_values:
     ALTIMA_AC_STATUS: 153
+  response: 76407624007997DD9FE
+- expected_values:
+    ALTIMA_AC_STATUS: 153
   response: 76407624007997FD9FE
+- expected_values:
+    ALTIMA_AC_STATUS: 153
+  response: 7640762400799DFD9FE

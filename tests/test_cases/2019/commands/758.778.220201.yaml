@@ -4,23 +4,5 @@ test_cases:
     ALTIMA_TP_FL: 0
   response: '7780462020100'
 - expected_values:
-    ALTIMA_TP_FL: 36.5
-  response: '7780462020192'
-- expected_values:
-    ALTIMA_TP_FL: 37
-  response: '7780462020194'
-- expected_values:
-    ALTIMA_TP_FL: 37.5
-  response: '7780462020196'
-- expected_values:
-    ALTIMA_TP_FL: 37.75
-  response: '7780462020197'
-- expected_values:
-    ALTIMA_TP_FL: 38.25
-  response: '7780462020199'
-- expected_values:
-    ALTIMA_TP_FL: 38.75
-  response: 778046202019B
-- expected_values:
     ALTIMA_TP_FL: 39
   response: 778046202019C

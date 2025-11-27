@@ -94,6 +94,7 @@ unsupported_commands_by_ecu:
   "7E0":
   - 7E0.22030F
   - 7E0.220393
+  - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
   - 7E0.7E8.220301
   - 7E0.7E8.220307
   - 7E0.7E8.220316
@@ -120,7 +121,6 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.2203DC
   - 7E0.7E8.2203E8
   - 7E0.7E8.221186
-  - 7E0.7E8.22122B:ALTIMA_CC_S
   - 7E0.7E8.221266
   - 7E0.7E8.221E12
   - 7E0.7E8.221E1C

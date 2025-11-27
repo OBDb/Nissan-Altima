@@ -54,6 +54,6 @@ supported_commands_by_ecu:
   - 0147:TP_B
 unsupported_commands_by_ecu:
   "7E0":
+  - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
   - 7E0.7E8.221186
-  - 7E0.7E8.22122B:ALTIMA_CC_S
   - 7E0.7E8.221266

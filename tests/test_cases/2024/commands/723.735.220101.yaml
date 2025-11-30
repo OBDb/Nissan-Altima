@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     ALTIMA_YAW_RATE: 0
   response: '735056201010000'
+- expected_values:
+    ALTIMA_YAW_RATE: 0.3
+  response: '735056201010003'
+- expected_values:
+    ALTIMA_YAW_RATE: 0.6
+  response: '735056201010006'
+- expected_values:
+    ALTIMA_YAW_RATE: 1
+  response: 73505620101000A
+- expected_values:
+    ALTIMA_YAW_RATE: 1.2
+  response: 73505620101000C
+- expected_values:
+    ALTIMA_YAW_RATE: -24.9
+  response: 73505620101FF07
+- expected_values:
+    ALTIMA_YAW_RATE: -8.8
+  response: 73505620101FFA8
+- expected_values:
+    ALTIMA_YAW_RATE: -2.2
+  response: 73505620101FFEA
+- expected_values:
+    ALTIMA_YAW_RATE: -0.3
+  response: 73505620101FFFD
+- expected_values:
+    ALTIMA_YAW_RATE: -0.2
+  response: 73505620101FFFE

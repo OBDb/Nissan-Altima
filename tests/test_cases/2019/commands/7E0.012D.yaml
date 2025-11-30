@@ -4,20 +4,20 @@ test_cases:
     EGR_ERR: -100
   response: 7E803412D00
 - expected_values:
-    EGR_ERR: -32.6875
+    EGR_ERR: -4.6875
   response: 7E803412D7A
 - expected_values:
-    EGR_ERR: -31.90625
+    EGR_ERR: -3.90625
   response: 7E803412D7B
 - expected_values:
-    EGR_ERR: -30.34375
+    EGR_ERR: -2.34375
   response: 7E803412D7D
 - expected_values:
-    EGR_ERR: -29.5625
+    EGR_ERR: -1.5625
   response: 7E803412D7E
 - expected_values:
-    EGR_ERR: -28.78125
+    EGR_ERR: -0.78125
   response: 7E803412D7F
 - expected_values:
-    EGR_ERR: -28
+    EGR_ERR: 0
   response: 7E803412D80

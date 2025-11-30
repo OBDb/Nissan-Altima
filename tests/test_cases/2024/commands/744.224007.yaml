@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ALTIMA_AC_STATUS: 169
   response: 76407624007A97FD9FF
+- expected_values:
+    ALTIMA_AC_STATUS: 185
+  response: 76407624007B95FDBFF
+- expected_values:
+    ALTIMA_AC_STATUS: 249
+  response: 76407624007F95FDBFF

@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     ALTIMA_RADAR_SPEED: 0
   response: '735056201080000'
+- expected_values:
+    ALTIMA_RADAR_SPEED: 0.4
+  response: '735056201080004'
+- expected_values:
+    ALTIMA_RADAR_SPEED: 0.8
+  response: '735056201080008'
+- expected_values:
+    ALTIMA_RADAR_SPEED: 1.4
+  response: 73505620108000E
+- expected_values:
+    ALTIMA_RADAR_SPEED: 2.1
+  response: '735056201080015'
+- expected_values:
+    ALTIMA_RADAR_SPEED: 3.3
+  response: '735056201080021'
+- expected_values:
+    ALTIMA_RADAR_SPEED: -18
+  response: 73505620108FF4C
+- expected_values:
+    ALTIMA_RADAR_SPEED: -11.3
+  response: 73505620108FF8F
+- expected_values:
+    ALTIMA_RADAR_SPEED: -10.3
+  response: 73505620108FF99
+- expected_values:
+    ALTIMA_RADAR_SPEED: -1.5
+  response: 73505620108FFF1

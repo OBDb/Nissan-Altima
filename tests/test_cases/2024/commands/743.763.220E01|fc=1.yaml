@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     ALTIMA_ODO: 23806
   response: 76306620E01005CFE
+- expected_values:
+    ALTIMA_ODO: 23810
+  response: 76306620E01005D02
+- expected_values:
+    ALTIMA_ODO: 23811
+  response: 76306620E01005D03
+- expected_values:
+    ALTIMA_ODO: 23812
+  response: 76306620E01005D04

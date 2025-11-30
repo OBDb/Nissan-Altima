@@ -1,5 +1,32 @@
 command_id: 723.735.220107
 test_cases:
 - expected_values:
+    ALTIMA_RADAR_DISTANCE: 0.2
+  response: '735056201070002'
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 1.4
+  response: 73505620107000E
+- expected_values:
     ALTIMA_RADAR_DISTANCE: 1.5
   response: 73505620107000F
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 2.3
+  response: '735056201070017'
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 3
+  response: 73505620107001E
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 5.9
+  response: 73505620107003B
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 6.1
+  response: 73505620107003D
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 23
+  response: '7350562010700E6'
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 28.7
+  response: 73505620107011F
+- expected_values:
+    ALTIMA_RADAR_DISTANCE: 61.9
+  response: 73505620107026B

@@ -1,11 +1,14 @@
 command_id: 723.735.220110
 test_cases:
 - expected_values:
+    ALTIMA_STEER_ANGLE: 0.9
+  response: '735056201100009'
+- expected_values:
     ALTIMA_STEER_ANGLE: 358.5
   response: '735056201100E01'
 - expected_values:
-    ALTIMA_STEER_ANGLE: 358.7
-  response: '735056201100E03'
+    ALTIMA_STEER_ANGLE: -22.4
+  response: 73505620110FF20
 - expected_values:
-    ALTIMA_STEER_ANGLE: 360
-  response: '735056201100E10'
+    ALTIMA_STEER_ANGLE: -0.2
+  response: 73505620110FFFE

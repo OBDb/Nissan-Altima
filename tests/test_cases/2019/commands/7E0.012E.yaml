@@ -4,6 +4,9 @@ test_cases:
     EVAP_PCT: 0
   response: 7E803412E00
 - expected_values:
+    EVAP_PCT: 9.80392
+  response: 7E803412E19
+- expected_values:
     EVAP_PCT: 41.96078
   response: 7E803412E6B
 - expected_values:

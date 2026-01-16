@@ -4,5 +4,8 @@ test_cases:
     NI_LOAD: 22.35294
   response: '7E80462111739'
 - expected_values:
+    NI_LOAD: 22.7451
+  response: 7E8046211173A
+- expected_values:
     NI_LOAD: 25.09804
   response: '7E80462111740'

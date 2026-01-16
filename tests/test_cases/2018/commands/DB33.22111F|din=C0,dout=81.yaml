@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     NI_EOT: 72
   response: 7E80462111F7A
+- expected_values:
+    NI_EOT: 84
+  response: 7E80462111F86

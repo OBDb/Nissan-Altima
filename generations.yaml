@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_Altima"
+
 generations:
   - name: "First Generation (U13)"
     start_year: 1993

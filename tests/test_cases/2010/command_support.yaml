@@ -31,13 +31,6 @@ supported_commands_by_ecu:
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
   - 0145:TP_R
-  - 0147:TP_B
-  - 0149:APP_D
-  - 014A:APP_E
-  - 014C:TAC_PCT
-  - 014D:MIL_TIME
-  - 014E:CLR_TIME
-  - 0151:FUEL_TYP
 unsupported_commands_by_ecu:
   "707":
   - 707.727.220103:ALTIMA_TURN_SIGNAL_LEFT,ALTIMA_TURN_SIGNAL_RIGHT

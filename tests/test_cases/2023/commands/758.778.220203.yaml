@@ -1,0 +1,8 @@
+command_id: 758.778.220203
+test_cases:
+- expected_values:
+    ALTIMA_TP_RR: 0
+  response: '7780462020300'
+- expected_values:
+    ALTIMA_TP_RR: 37.75
+  response: '7780462020397'

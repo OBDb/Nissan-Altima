@@ -1,0 +1,8 @@
+command_id: 758.778.220210
+test_cases:
+- expected_values:
+    ALTIMA_TPW_RL: 0
+  response: '7780462021000'
+- expected_values:
+    ALTIMA_TPW_RL: 26.5
+  response: 778046202106A

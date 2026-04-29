@@ -58,6 +58,9 @@ supported_commands_by_ecu:
   - 7E0.014C:TAC_PCT
   - 7E0.014D:MIL_TIME
   - 7E0.014E:CLR_TIME
+  - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
+  - 7E0.7E8.221111
+  - 7E0.7E8.221114
 unsupported_commands_by_ecu:
   "707":
   - 707.727.220103:ALTIMA_TURN_SIGNAL_LEFT,ALTIMA_TURN_SIGNAL_RIGHT
@@ -82,6 +85,5 @@ unsupported_commands_by_ecu:
   - 758.778.22020F:ALTIMA_TPW_RR
   - 758.778.220210:ALTIMA_TPW_RL
   "7E0":
-  - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
   - 7E0.7E8.221186
   - 7E0.7E8.221266

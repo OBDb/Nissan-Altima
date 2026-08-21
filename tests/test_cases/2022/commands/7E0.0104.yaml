@@ -1,0 +1,24 @@
+command_id: 7E0.0104
+test_cases:
+- expected_values:
+    LOAD_PCT: 19.21569
+  response: '7E80341043100000000'
+- expected_values:
+    LOAD_PCT: 25.88235
+  response: '7E803410442'
+- expected_values:
+    LOAD_PCT: 51.37255
+  response: '7E80341048300000000'
+- expected_values:
+    LOAD_PCT: 23.92157
+  response: |-
+    > 000.ATRV
+    12.3V
+    12.7V
+    12.8V
+    12.9V
+    13.0V
+    > 744.224007
+    NO DATA
+    > 7E0.7E8.010D
+    7E80341043D00000000

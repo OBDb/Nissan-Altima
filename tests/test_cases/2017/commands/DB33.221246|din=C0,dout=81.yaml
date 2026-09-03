@@ -1,0 +1,8 @@
+command_id: DB33.221246|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_BATT_V: 2580
+  response: '7E8056212460204'
+- expected_values:
+    NI_BATT_V: 2700
+  response: 7E805621246021C

@@ -1,0 +1,11 @@
+command_id: 743.763.220E01|fc=1
+test_cases:
+- expected_values:
+    ALTIMA_ODO: 50469
+  response: 76306620E0100C525
+- expected_values:
+    ALTIMA_ODO: 50470
+  response: 76306620E0100C526
+- expected_values:
+    ALTIMA_ODO: 50471
+  response: 76306620E0100C527

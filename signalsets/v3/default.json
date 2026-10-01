@@ -1,76 +1,133 @@
 { "commands": [
-{ "hdr": "707", "rax": "727", "cmd": {"22": "0103"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "707", "rax": "727", "cmd": {"22": "0103"}, "freq": 0.1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TURN_SIGNAL_RIGHT", "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal"},
     {"id": "ALTIMA_TURN_SIGNAL_LEFT",  "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_RADAR_DISTANCE", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" }, "name": "Radar distance"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 30,
+  "signals": [
+    {"id": "ALTIMA_MTR_ODO", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Odometer, meter group 1"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "744", "cmd": {"22": "4007"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E25"}, "freq": 15,
+  "signals": [
+    {"id": "ALTIMA_TP_FR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E26"}, "freq": 15,
+  "signals": [
+    {"id": "ALTIMA_TP_FL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E27"}, "freq": 15,
+  "signals": [
+    {"id": "ALTIMA_TP_RR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E28"}, "freq": 15,
+  "signals": [
+    {"id": "ALTIMA_TP_RL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "744", "rax": "764", "dbg": true, "cmd": {"21": "10"}, "freq": 5,
+  "signals": [
+    {"id": "ALTIMA_HVAC_AAT",      "path": "Climate", "fmt": {            "len": 8,  "max": 215,   "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature, climate module"},
+    {"id": "ALTIMA_HVAC_CABIN_T",  "path": "Climate", "fmt": {"bix": 8,   "len": 8,  "max": 215,   "min": -40, "add": -40, "unit": "celsius" }, "name": "Cabin temperature"},
+    {"id": "ALTIMA_HVAC_EVAP_T",   "path": "Climate", "fmt": {"bix": 16,  "len": 8,  "max": 215,   "min": -40, "add": -40, "unit": "celsius" }, "name": "Evaporator temperature"},
+    {"id": "ALTIMA_HVAC_SUNLOAD",  "path": "Climate", "fmt": {"bix": 24,  "len": 8,  "max": 255,                           "unit": "scalar"  }, "name": "Sun load"},
+    {"id": "ALTIMA_HVAC_AC_ON",    "path": "Climate", "fmt": {"bix": 80,  "len": 1,  "max": 1,                             "unit": "offon"   }, "name": "Air conditioning on"},
+    {"id": "ALTIMA_HVAC_FAN_ON",   "path": "Climate", "fmt": {"bix": 88,  "len": 1,  "max": 1,                             "unit": "offon"   }, "name": "Blower on"},
+    {"id": "ALTIMA_HVAC_BLOWER_V", "path": "Climate", "fmt": {"bix": 89,  "len": 7,  "max": 127,                           "unit": "volts"   }, "name": "Blower voltage"},
+    {"id": "ALTIMA_AC_COMP_RPM",   "path": "Climate", "fmt": {"bix": 168, "len": 16, "max": 65535,                         "unit": "rpm"     }, "name": "Air conditioning compressor speed"}
+  ]},
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_AC_STATUS", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "offon" }, "name": "A/C status"}
   ]},
-{ "hdr": "744", "cmd": {"22": "4008"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "744", "cmd": {"22": "F467"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
     {"id": "ALTIMA_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 30, "dbgfilter": { "to": 2018, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1124"}, "freq": 1,
   "signals": [
-    {"id": "ALTIMA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 255, "unit": "scalar" }, "name": "Cruise control speed"}
+    {"id": "ALTIMA_AF_ADJ_B2", "path": "Fuel", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "Air/fuel ratio adjustment, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1137"}, "freq": 1,
+  "signals": [
+    {"id": "ALTIMA_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1139"}, "freq": 1,
+  "signals": [
+    {"id": "ALTIMA_CAM_DUTY_B2", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Intake valve timing solenoid duty, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1205"}, "freq": 1,
+  "signals": [
+    {"id": "ALTIMA_MAF_V_B2", "path": "Engine", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow sensor voltage, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2026 },
+  "signals": [
+    {"id": "ALTIMA_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 3686, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Cruise control set speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1307"}, "freq": 1,
+  "signals": [
+    {"id": "ALTIMA_AC_COMP",        "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Air conditioning compressor"},
+    {"id": "ALTIMA_IDLE_CTRL_MODE", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle control mode"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1313"}, "freq": 1,
+  "signals": [
+    {"id": "ALTIMA_COOLING_FAN_LOW",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan low"},
+    {"id": "ALTIMA_COOLING_FAN_HIGH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan high"}
   ]}
 ]
 }

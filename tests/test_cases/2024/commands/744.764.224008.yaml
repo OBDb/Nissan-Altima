@@ -1,0 +1,8 @@
+command_id: 744.764.224008
+test_cases:
+- expected_values:
+    ALTIMA_AAT: 2
+  response: 764046240082A
+- expected_values:
+    ALTIMA_AAT: 31
+  response: '7640462400847'

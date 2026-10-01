@@ -69,35 +69,35 @@
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "ALTIMA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021, 2022], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "ALTIMA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "ALTIMA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "ALTIMA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front left tire pressure, warning"}
+    {"id": "ALTIMA_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure, warning"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Front right tire pressure, warning"}
+    {"id": "ALTIMA_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure, warning"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
+    {"id": "ALTIMA_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2026 },
   "signals": [
-    {"id": "ALTIMA_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
+    {"id": "ALTIMA_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1124"}, "freq": 1,
   "signals": [

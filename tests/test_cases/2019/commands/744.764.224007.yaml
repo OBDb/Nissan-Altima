@@ -1,0 +1,17 @@
+command_id: 744.764.224007
+test_cases:
+- expected_values:
+    ALTIMA_AC_STATUS: 137
+  response: 76407624007895DD9FE
+- expected_values:
+    ALTIMA_AC_STATUS: 137
+  response: 76407624007897DD9FE
+- expected_values:
+    ALTIMA_AC_STATUS: 153
+  response: 76407624007997DD9FE
+- expected_values:
+    ALTIMA_AC_STATUS: 153
+  response: 76407624007997FD9FE
+- expected_values:
+    ALTIMA_AC_STATUS: 153
+  response: 7640762400799DFD9FE

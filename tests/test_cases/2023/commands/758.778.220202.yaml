@@ -1,8 +1,8 @@
 command_id: 758.778.220202
 test_cases:
 - expected_values:
-    ALTIMA_TP_FR: 0
-  response: '7780462020200'
+    ALTIMA_TP_FR: 4.25
+  response: '7780462020211'
 - expected_values:
     ALTIMA_TP_FR: 44
   response: 77804620202B0

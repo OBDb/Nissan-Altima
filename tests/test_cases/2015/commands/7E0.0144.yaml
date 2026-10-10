@@ -4,29 +4,29 @@ test_cases:
     EQ_RAT: 0.85032
   response: 7E80441446CD7
 - expected_values:
-    EQ_RAT: 0.99605
+    EQ_RAT: 0.99603
   response: 7E80441447F7E
 - expected_values:
-    EQ_RAT: 0.99742
+    EQ_RAT: 0.99741
   response: 7E80441447FAB
 - expected_values:
-    EQ_RAT: 0.99825
+    EQ_RAT: 0.99823
   response: 7E80441447FC6
 - expected_values:
-    EQ_RAT: 0.99864
+    EQ_RAT: 0.99863
   response: 7E80441447FD3
 - expected_values:
-    EQ_RAT: 1.0023
+    EQ_RAT: 1.00229
   response: 7E8044144804B
 - expected_values:
-    EQ_RAT: 1.00285
+    EQ_RAT: 1.00284
   response: 7E8044144805D
 - expected_values:
-    EQ_RAT: 1.00462
+    EQ_RAT: 1.00461
   response: '7E80441448097'
 - expected_values:
-    EQ_RAT: 1.00706
+    EQ_RAT: 1.00705
   response: 7E804414480E7
 - expected_values:
-    EQ_RAT: 1.00978
+    EQ_RAT: 1.00977
   response: '7E80441448140'

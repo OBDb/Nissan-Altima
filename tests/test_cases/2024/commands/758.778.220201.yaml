@@ -1,6 +1,9 @@
 command_id: 758.778.220201
 test_cases:
 - expected_values:
+    ALTIMA_TP_FL: null
+  response: '7780462020100'
+- expected_values:
     ALTIMA_TP_FL: 31
   response: 778046202017C
 - expected_values:

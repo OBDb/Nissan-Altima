@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.22122B
+command_id: 7E0.7E8.22122B|f=2019-;-2012
 test_cases:
 - expected_values:
     ALTIMA_CC_S: 0

@@ -4,5 +4,8 @@ test_cases:
     ALTIMA_TP_RR: null
   response: '7780462020300'
 - expected_values:
+    ALTIMA_TP_RR: 30.75
+  response: 778046202037B
+- expected_values:
     ALTIMA_TP_RR: 35.75
   response: 778046202038F

@@ -3,4 +3,8 @@ test_cases:
 - expected_values:
     ALTIMA_COOLING_FAN_HIGH: 0
     ALTIMA_COOLING_FAN_LOW: 0
+  response: '7E8056213130008'
+- expected_values:
+    ALTIMA_COOLING_FAN_HIGH: 0
+    ALTIMA_COOLING_FAN_LOW: 0
   response: '7E8056213130808'

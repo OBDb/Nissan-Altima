@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221124|din=C0,dout=81
+test_cases:
+- expected_values:
+    ALTIMA_AF_ADJ_B2: -25
+  response: 7E8046211244B

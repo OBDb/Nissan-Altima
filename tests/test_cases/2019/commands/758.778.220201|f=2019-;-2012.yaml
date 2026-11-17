@@ -1,0 +1,11 @@
+command_id: 758.778.220201|f=2019-;-2012
+test_cases:
+- expected_values:
+    ALTIMA_TP_FL: null
+  response: '7780462020100'
+- expected_values:
+    ALTIMA_TP_FL: 27.75
+  response: 778046202016F
+- expected_values:
+    ALTIMA_TP_FL: 39
+  response: 778046202019C
